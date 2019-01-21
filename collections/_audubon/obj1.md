@@ -11,6 +11,7 @@ category: Upland Gamebirds and Marsh-Dwellers
 current_population: Unthreatened
 permalink: "/audubon/obj1/"
 layout: iiif-item-page
+order: obj1
 ---
 
 # The Wild Turkey (_Meleagris gallopavo_), Volume 1, Plate 1

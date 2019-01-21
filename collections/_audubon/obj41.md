@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj41/"
 layout: iiif-item-page
+order: obj41
 ---
 
 # Common Gannet (_Sula bassana, Lacep._), Volume 4, Plate 326

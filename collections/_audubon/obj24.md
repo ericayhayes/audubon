@@ -11,6 +11,7 @@ category: Seabirds
 current_population: Endangered
 permalink: "/audubon/obj24/"
 layout: iiif-item-page
+order: obj24
 ---
 
 # Razor-billed Auk (_Alca torda_), Volume 3, Plate 214

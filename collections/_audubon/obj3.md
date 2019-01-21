@@ -11,6 +11,7 @@ category: Songsters and Mimics
 current_population: Unthreatened
 permalink: "/audubon/obj3/"
 layout: iiif-item-page
+order: obj3
 ---
 
 # Mocking Bird (_Turdus Polyglottus, Linn._), Volume 1, Plate 21

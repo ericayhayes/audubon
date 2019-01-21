@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj34/"
 layout: iiif-item-page
+order: obj34
 ---
 
 # Great White Heron (_Ardea occidentalis_), Volume 3, Plate 281

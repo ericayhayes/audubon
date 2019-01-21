@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj48/"
 layout: iiif-item-page
+order: obj48
 ---
 
 # Glossy Ibis (_Ibis falcinelus_), Volume 4, Plate 387
@@ -24,4 +25,3 @@ Audubon's plate depicts a male bird in superb plumage, procured in Florida. Have
 The Glossy Ibis is of exceedingly rare occurrence in the United States, where it appears only at long and irregular intervals, like a wanderer who has lost his way. It exists in Mexico, however, in vast numbers. In the spring of 1837, I saw flocks of it in the Texas; but even there it is merely a summer resident, associating with the White Ibis, along the grassy margins of the rivers and bayous, and apparently going to and returning from its roosting places in the interior of the country. Its flight resembles that of its companion, the White Ibis, and it is probable that it feeds on the same kinds of crustaceous animals, and breeds on low bushes in the same great associations as that species, but we unfortunately had no opportunity of verifying this conjecture. Mr. NUTTALL, in his Ornithology of the United States and Canada, says that "a specimen has occasionally been exposed for sale in the market of Boston."
 
 I have given the figure of a male bird in superb plumage, procured in Florida, near a woodcutter's cabin, a view of which is also given. ... Bill black; bare part of the head greyish–blue; iris hazel; feet greyish–black, claws brown. The upper part and sides of the head are dark glossy, with purplish reflections. The neck, a portion of the back anteriorly, the breast, abdomen, and legs, are of a deep rich brownish–red or dark chestnut; part of the breast shaded with green, the sides dusky tinged with green, as are the lower wing–coverts, and lower tail–coverts. Excepting the anterior edge of the wing, and the anterior scapulars, which are deep glossy brownish–red, the upper parts are splendent dark green, glossed with purple; the primaries black, shaded with green; the tail glossy with purple reflections.
-

@@ -11,6 +11,7 @@ category: Waterfowl
 current_population: Unthreatened
 permalink: "/audubon/obj49/"
 layout: iiif-item-page
+order: obj49
 ---
 
 # Trumpeter Swan (_Cygnus Buccinator_), Volume 4, Plate 406

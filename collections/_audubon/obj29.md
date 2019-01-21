@@ -11,6 +11,7 @@ category: Seabirds
 current_population: Unthreatened
 permalink: "/audubon/obj29/"
 layout: iiif-item-page
+order: obj29
 ---
 
 # The Great Black-backed Gull (_Larus Marinus_), Volume 3, Plate 241

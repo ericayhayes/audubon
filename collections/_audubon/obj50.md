@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj50/"
 layout: iiif-item-page
+order: obj50
 ---
 
 # American Flamingo (_Phoenicopterus ruber, Linn._), Volume 4, Plate 431

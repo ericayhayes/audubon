@@ -11,6 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj19/"
 layout: iiif-item-page
+order: obj19
 ---
 
 # Golden Eagle (_Falco Chrysaetos_), Volume 2, Plate 181

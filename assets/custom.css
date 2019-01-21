@@ -37,7 +37,7 @@ html, body {
 
 
 #main a {
-  color: #f44441; }
+  color: #731d15; }
 
 #main p.category {
     font-family: "benton-sans, sans-serif;"
@@ -250,7 +250,7 @@ search box
             .search-block #results .result a p {
               font-size: 0.96rem; } }
           .search-block #results .result a p .title {
-            color: #f44441; }
+            color: #731d15; }
       .search-block #results .result:hover {
         background-color: #dee2e6; }
 
@@ -327,7 +327,7 @@ search box
         overflow: hidden;
         top: 0;
         left: 0;
-        background-color: #f44441;
+        background-color: #731d15;
         opacity: 0;
         -webkit-transition: opacity 0.4s ease-in-out;
         transition: opacity 0.4s ease-in-out;

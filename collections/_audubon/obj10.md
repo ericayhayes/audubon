@@ -11,6 +11,7 @@ category: Songsters and Mimics
 current_population: Unthreatened
 permalink: "/audubon/obj10/"
 layout: iiif-item-page
+order: obj10
 ---
 
 # The House Wren (_Troglodytes Aedon, Vieill._), Volume 1, Plate 83

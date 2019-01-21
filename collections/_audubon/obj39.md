@@ -11,6 +11,7 @@ category: Shorebirds
 current_population: Unthreatened
 permalink: "/audubon/obj39/"
 layout: iiif-item-page
+order: obj39
 ---
 
 # American Avocet (_Recurvirostra americana_), Volume 4, Plate 318

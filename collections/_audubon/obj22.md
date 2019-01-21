@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj22/"
 layout: iiif-item-page
+order: obj22
 ---
 
 # Booby Gannet (_Sula fusca_), Volume 3, Plate 207

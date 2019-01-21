@@ -11,6 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj37/"
 layout: iiif-item-page
+order: obj37
 ---
 
 # American White Pelican (_Pelicanus americanus_), Volume 4, Plate 311
