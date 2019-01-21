@@ -1,0 +1,118 @@
+---
+layout: fluid
+---
+{%- assign the_collection = site.data[page.collection] -%}
+
+
+<div id="wax-gallery" class="row">
+    <div id="facet-buttons" class="col-sm-4 col-md-3 col-lg-2 d-none d-sm-block">
+        <p class="category">Category</p>
+        <div id="facet-category" class="btn-group-vertical"></div>
+        <p class="population">Current Population</p>
+        <div id="facet-population" class="btn-group-vertical" style="display: block;">
+        </div>
+    </div>
+    <!--<div id="facet-buttons-mobile" class="d-block d-sm-none">
+        <p class="category">Category</p>
+        <div id="facet-category-mobile" class="btn-group-vertical"></div>
+        <p class="category">Current Population</p>
+        <div id="facet-population-mobile" class="btn-group-vertical"></div>
+    </div>-->
+<div id="facet-buttons-mobile" class="d-block d-sm-none">
+    <div class="dropdown">
+      <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <button data-toggle="collapse" href="#facets-1" class=btn btn-secondary dropdown-toggle><span class="glyphicon glyphicon-tag"></span>Category</button>
+              </h4>
+            </div>
+            <div id="facets-1" class="panel-collapse collapse in">
+              <ul class="list-group">
+                <div class="list-group-item checkbox checkbox-circle">
+                  <a role="button" data-toggle="collapse" href="" aria-expanded="true" aria-controls="accordiongroup-690-3399-panel" tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                    <span uib-accordion-header="" ng-class="{'text-muted': isDisabled}" class="ng-binding"><i class="glyphicon ng-scope glyphicon-minus" ng-class="{'glyphicon-minus': isOpenCreator, 'glyphicon-plus': !isOpenCreator}" style="">
+                    </i><span id="facet-category-mobile"></span></span></a>
+                </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+    <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <button data-toggle="collapse" href="#facets-2" class=btn btn-secondary dropdown-toggle><span class="glyphicon glyphicon-tag"></span>Current Population</button>
+              </h4>
+            </div>
+            <div id="facets-2" class="panel-collapse collapse in">
+              <ul class="list-group">
+                <div class="list-group-item checkbox checkbox-circle">
+                  <a role="button" data-toggle="collapse" href="" aria-expanded="true" aria-controls="accordiongroup-690-3399-panel" tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                    <span uib-accordion-header="" ng-class="{'text-muted': isDisabled}" class="ng-binding"><i class="glyphicon ng-scope glyphicon-minus" ng-class="{'glyphicon-minus': isOpenCreator, 'glyphicon-plus': !isOpenCreator}" style="">
+                    </i><span id="facet-population-mobile"></span></span></a>
+                </div>
+              </ul>
+            </div>
+          </div>
+    </div>
+    </div>
+  </div>
+
+
+    <div id="gallery" class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
+        {% for item in the_collection %}
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1 {{ item[page.facet_by]}} {{item[page.facet_population] }} all">
+            <a href="{{ site.baseurl }}/{{ page.collection }}/{{ item.pid }}/">
+                <div class="img-with-text">
+                    <img class="img-responsive gallery-thumb" src="{{ site.baseurl }}/iiif/{{ page.collection }}/cropped/{{ item.pid }}-1/default.jpg">
+                        <p class="birdname">{{ item.title }}</p>
+                        <p class="birdname">Plate {{ item.plate }}</p>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    // Population facet
+    {% if page.facet_population %}
+        var buttonDiv = $('#facet-population, #facet-population-mobile');
+        var facets = Array.from(new Set([{%- for item in the_collection -%}'{{ item[page.facet_population] }}'{% unless forloop.last %}, {% endunless %}{%- endfor -%}]));
+        // create buttons
+        for (i in facets) {
+            buttonDiv.append("<button class='btn facet' data-filter=" + facets[i]+ ">" + facets[i] + "</button>");
+        }
+    {% endif %}
+
+    // Category facet
+    {% if page.facet_by %}
+        var buttonDiv = $('#facet-category, #facet-category-mobile');
+        var facets = Array.from(new Set([{%- for item in the_collection -%}'{{ item[page.facet_by] }}'{% unless forloop.last %}, {% endunless %}{%- endfor -%}]));
+        // create buttons
+        for (i in facets) {
+            buttonDiv.append("<button class='btn facet' data-filter=" + facets[i]+ ">" + facets[i] + "</button>");
+        }
+        buttonDiv.append("<button class='btn facet active' data-filter='all'>View All </button>");
+    {% endif %}
+    // filter on button click
+    $(document).ready(function(){
+        // clicking button with class "category-button"
+        $(".facet").click(function(){
+            // get the data-filter value of the button
+            var filterValue = $(this).attr('data-filter');
+            // show all items
+            if(filterValue == "all") {
+                $(".all").show("slow");
+            } else {
+                // hide all items
+                $(".all").hide("slow");
+                // and then, show only items with selected data-filter value
+                $('.'+filterValue).show("slow");
+            }
+        });
+    });
+</script>

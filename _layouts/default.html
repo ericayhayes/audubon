@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="container" id="main">
+
+      {% if page.banner %}
+        {% include banner.html banner=page.banner %}
+      {% endif %}
+
+{% comment %}
+      {% if page.search %}
+        {% include search.html %}
+      {% endif %}
+{% endcomment %}
+
+      {{ content }}
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+
+</html>

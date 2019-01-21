@@ -1,0 +1,19 @@
+{
+  "@type": "oa:Annotation",
+  "@id": "/audubon/iiif/audubon/obj47/annotation/front.json",
+  "motivation": "sc:painting",
+  "resource": {
+    "@id": "/audubon/iiif/audubon/images/obj47-1/full/full/0/default.jpg",
+    "@type": "dcterms:Image",
+    "format": "image/jpeg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "/audubon/iiif/audubon/images/obj47-1",
+      "profile": "http://iiif.io/api/image/2/level0.json"
+    },
+    "width": 4256,
+    "height": 2832
+  },
+  "on": "/audubon/iiif/audubon/obj47/canvas/front.json",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
+}
