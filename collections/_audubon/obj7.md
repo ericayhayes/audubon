@@ -11,7 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj7/"
 layout: iiif-item-page
-order: '7'
+order: '07'
 ---
 
 # Red-shouldered Hawk (_Falco borealis, Gmelin._), Volume 1, Plate 56

@@ -11,7 +11,7 @@ category: Gleaners of Forest and Meadow
 current_population: Endangered
 permalink: "/audubon/obj9/"
 layout: iiif-item-page
-order: '9'
+order: '09'
 ---
 
 # The Ivory–Billed Woodpecker (_Picus Principalis, Linn._), Volume 1, Plate 66

@@ -11,7 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj2/"
 layout: iiif-item-page
-order: '2'
+order: '02'
 ---
 
 # The Great-footed Hawk (_Falco peregrinus_), Volume 1, Plate 16

@@ -11,7 +11,7 @@ category: Flockers and Songbirds
 current_population: Unthreatened
 permalink: "/audubon/obj8/"
 layout: iiif-item-page
-order: '8'
+order: '08'
 ---
 
 # The Swamp Sparrow (_Spiza palustris, Wils._), Volume 1, Plate 64
