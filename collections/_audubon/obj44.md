@@ -11,7 +11,7 @@ category: Waterfowl
 current_population: Unthreatened
 permalink: "/audubon/obj44/"
 layout: iiif-item-page
-order: obj44
+order: '44'
 ---
 
 # The Golden-Eye Duck (_Fuligula clangula_), Volume 4, Plate 342

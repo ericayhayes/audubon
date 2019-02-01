@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj36/"
 layout: iiif-item-page
-order: obj36
+order: '36'
 ---
 
 # Great Northern Diver (_Colymbus glacialis_), Volume 4, Plate 306

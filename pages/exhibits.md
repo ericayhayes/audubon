@@ -4,7 +4,7 @@ title: Exhibits
 permalink: /exhibits/
 ---
 
-{% include mirador_iiif.html m1='/iiif/audubon/obj6/manifest.json' m2='https://www.wdl.org/en/item/6954/manifest'%}
+{% include mirador_iiif.html m1='audubon/iiif/audubon/obj6/manifest.json' m2='https://www.wdl.org/en/item/6954/manifest'%}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mauris quis nunc blandit sollicitudin. Etiam ut gravida purus. Maecenas in tincidunt dui. Aliquam ullamcorper, dolor in bibendum suscipit, turpis elit gravida risus, nec accumsan quam risus vitae purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget posuere ante, nec laoreet libero. Curabitur semper turpis ac odio gravida, sed volutpat ligula interdum. Vivamus enim nunc, scelerisque vitae ornare eu, gravida quis risus. Nunc ac odio pulvinar, imperdiet enim aliquam, auctor odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In blandit ut urna at aliquet.
 

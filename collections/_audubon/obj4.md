@@ -11,7 +11,7 @@ category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Extinct
 permalink: "/audubon/obj4/"
 layout: iiif-item-page
-order: obj4
+order: '4'
 ---
 
 # Carolina Parakeet (_Conuropsis carolinensis_), Volume 1, Plate 26

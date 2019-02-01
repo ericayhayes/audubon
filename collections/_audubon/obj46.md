@@ -11,7 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj46/"
 layout: iiif-item-page
-order: obj46
+order: '46'
 ---
 
 # Common Buzzard or Swainson's Hawk (_Buteo swainsoni_), Volume 4, Plate 372

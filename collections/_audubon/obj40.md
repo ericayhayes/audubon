@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj40/"
 layout: iiif-item-page
-order: obj40
+order: '40'
 ---
 
 # Roseate Spoonbill (_Platalea ajaja_), Volume 4, Plate 321

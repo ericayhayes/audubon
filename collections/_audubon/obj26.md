@@ -11,7 +11,7 @@ category: Seabirds
 current_population: Unthreatened
 permalink: "/audubon/obj26/"
 layout: iiif-item-page
-order: obj26
+order: '26'
 ---
 
 # The Foolish Guillemots (_Uria Troile_), Volume 3, Plate 218

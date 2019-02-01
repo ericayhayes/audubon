@@ -11,7 +11,7 @@ category: Flockers and Songbirds
 current_population: Unthreatened
 permalink: "/audubon/obj17/"
 layout: iiif-item-page
-order: obj17
+order: '17'
 ---
 
 # Cardinal Grosbeak (_Fringilla cardinalis, Linn._), Volume 2, Plate 159

@@ -11,7 +11,7 @@ category: Waterfowl
 current_population: Unthreatened
 permalink: "/audubon/obj35/"
 layout: iiif-item-page
-order: obj35
+order: '35'
 ---
 
 # Canvas-backed Duck (_Fuligula vallisneria_), Volume 4, Plate 301

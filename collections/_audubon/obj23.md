@@ -11,7 +11,7 @@ category: Shorebirds
 current_population: Endangered
 permalink: "/audubon/obj23/"
 layout: iiif-item-page
-order: obj23
+order: '23'
 ---
 
 # Esquimaux Curlew (_Numenius borealis, Lath._), Volume 3, Plate 208

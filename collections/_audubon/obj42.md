@@ -11,7 +11,7 @@ category: Waterfowl
 current_population: Unthreatened
 permalink: "/audubon/obj42/"
 layout: iiif-item-page
-order: obj42
+order: '42'
 ---
 
 # Goosander or Common Merganser (_Mergus merganser_), Volume 4, Plate 331

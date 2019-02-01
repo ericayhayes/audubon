@@ -11,7 +11,7 @@ category: Shorebirds
 current_population: Unthreatened
 permalink: "/audubon/obj28/"
 layout: iiif-item-page
-order: obj28
+order: '28'
 ---
 
 # Long-billed Curlew (_Numenius Longirostris_), Volume 3, Plate 231

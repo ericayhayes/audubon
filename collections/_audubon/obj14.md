@@ -11,7 +11,7 @@ category: Songsters and Mimics
 current_population: Unthreatened
 permalink: "/audubon/obj14/"
 layout: iiif-item-page
-order: obj14
+order: '14'
 ---
 
 # Ferruginous Thrush (_Turdus Rufus, Linn._), Volume 2, Plate 116

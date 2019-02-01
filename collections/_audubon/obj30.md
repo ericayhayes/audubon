@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj30/"
 layout: iiif-item-page
-order: obj30
+order: '30'
 ---
 
 # The Snowy Heron or White Egret (_Ardea candidissima_), Volume 3, Plate 242

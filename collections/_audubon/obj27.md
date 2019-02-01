@@ -11,7 +11,7 @@ category: Upland Gamebirds and Marsh-Dwellers
 current_population: Endangered
 permalink: "/audubon/obj27/"
 layout: iiif-item-page
-order: obj27
+order: '27'
 ---
 
 # Whooping Crane (_Grus Americana_), Volume 3, Plate 226

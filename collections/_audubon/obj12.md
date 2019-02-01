@@ -11,7 +11,7 @@ category: Gleaners of Forest and Meadow
 current_population: Unthreatened
 permalink: "/audubon/obj12/"
 layout: iiif-item-page
-order: obj12
+order: '12'
 ---
 
 # Blue Jay (_Corvus cristatus_), Volume 2, Plate 102

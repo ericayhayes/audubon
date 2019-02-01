@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj48/"
 layout: iiif-item-page
-order: obj48
+order: '48'
 ---
 
 # Glossy Ibis (_Ibis falcinelus_), Volume 4, Plate 387

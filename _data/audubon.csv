@@ -1,51 +1,51 @@
 pid,artist,title,source,volume,plate,repository,current_location,category,current_population,order
-obj1,John James Audubon,The Wild Turkey,Birds of America,1,1,Lilly Library,Indiana University,Upland Gamebirds and Marsh-Dwellers,Unthreatened,1
-obj2,John James Audubon,Great-footed Hawk,Birds of America,1,16,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,2
-obj3,John James Audubon,Mocking Bird,Birds of America,1,21,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened,3
-obj4,John James Audubon,Carolina Parrot,Birds of America,1,26,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Extinct,4
-obj5,John James Audubon,White-headed Eagle,Birds of America,1,31,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj6,John James Audubon,Ruby-throated Hummingbird,Birds of America,1,47,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened
-obj7,John James Audubon,Red-shouldered Hawk,Birds of America,1,56,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj8,John James Audubon,Swamp Sparrow,Birds of America,1,64,Lilly Library,Indiana University,Flockers and Songbirds,Unthreatened
-obj9,John James Audubon,Ivory-billed Woodpecker,Birds of America,1,66,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Endangered
-obj10,John James Audubon,House Wren,Birds of America,1,83,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened
-obj11,John James Audubon,Raven,Birds of America,2,101,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened
-obj12,John James Audubon,Blue Jay,Birds of America,2,102,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened
-obj13,John James Audubon,Black Vulture,Birds of America,2,106,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj14,John James Audubon,Ferruginous Thrush,Birds of America,2,116,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened
-obj15,John James Audubon,Pewit Flycatcher,Birds of America,2,120,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened
-obj16,John James Audubon,Snowy Owl,Birds of America,2,121,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened
-obj17,John James Audubon,Cardinal Grosbeak,Birds of America,2,159,Lilly Library,Indiana University,Flockers and Songbirds,Unthreatened
-obj18,John James Audubon,Barn Owl,Birds of America,2,171,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened
-obj19,John James Audubon,Golden Eagle,Birds of America,2,181,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj20,John James Audubon,Bachman's Warbler,Birds of America,2,185,Lilly Library,Indiana University,Woodland Sprites,Endangered
-obj21,John James Audubon,Red-throated Diver,Birds of America,3,202,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj22,John James Audubon,Booby Gannet,Birds of America,3,207,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj23,John James Audubon,Esquimaux Curlew,Birds of America,3,208,Lilly Library,Indiana University,Shorebirds,Endangered
-obj24,John James Audubon,Razor billed Auk,Birds of America,3,214,Lilly Library,Indiana University,Seabirds,Endangered
-obj25,John James Audubon,Louisiana Heron,Birds of America,3,217,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj26,John James Audubon,Foolish Guillemot,Birds of America,3,218,Lilly Library,Indiana University,Seabirds,Unthreatened
-obj27,John James Audubon,Whooping Crane,Birds of America,3,226,Lilly Library,Indiana University,Upland Gamebirds and Marsh-Dwellers,Endangered
-obj28,John James Audubon,Long-billed Curlew,Birds of America,3,231,Lilly Library,Indiana University,Shorebirds,Unthreatened
-obj29,John James Audubon,Black Backed Gull,Birds of America,3,241,Lilly Library,Indiana University,Seabirds,Unthreatened
-obj30,John James Audubon,Snowy Heron,Birds of America,3,242,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj31,John James Audubon,Eider Duck,Birds of America,3,246,Lilly Library,Indiana University,Waterfowl,Endangered
-obj32,John James Audubon,Florida Cormorant,Birds of America,3,252,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj33,John James Audubon,Common Cormorant,Birds of America,3,266,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj34,John James Audubon,Great White Heron,Birds of America,3,281,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj35,John James Audubon,Canvas backed Duck,Birds of America,4,301,Lilly Library,Indiana University,Waterfowl,Unthreatened
-obj36,John James Audubon,Great Northern Diver,Birds of America,4,306,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj37,John James Audubon,American White Pelican,Birds of America,4,311,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj38,John James Audubon,Black-bellied Darter,Birds of America,4,316,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj39,John James Audubon,American Avocet,Birds of America,4,318,Lilly Library,Indiana University,Shorebirds,Unthreatened
-obj40,John James Audubon,Roseate Spoonbill,Birds of America,4,321,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj41,John James Audubon,Common Gannet,Birds of America,4,326,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj42,John James Audubon,Goosander or Common Merganser,Birds of America,4,331,Lilly Library,Indiana University,Waterfowl,Unthreatened
-obj43,John James Audubon,Great Auk,Birds of America,4,341,Lilly Library,Indiana University,Seabirds,Extinct
-obj44,John James Audubon,Goldn Eye Duck,Birds of America,4,342,Lilly Library,Indiana University,Waterfowl,Unthreatened
-obj45,John James Audubon,Iceland or Jer Falcon,Birds of America,4,366,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj46,John James Audubon,Common Buzzard,Birds of America,4,372,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened
-obj47,John James Audubon,Great American Egret,Birds of America,4,386,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj48,John James Audubon,Glossy Ibis,Birds of America,4,387,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
-obj49,John James Audubon,Trumpeter Swan,Birds of America,4,406,Lilly Library,Indiana University,Waterfowl,Unthreatened
-obj50,John James Audubon,American Flamingo,Birds of America,4,431,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened
+obj1,John James Audubon,The Wild Turkey,Birds of America,1,1,Lilly Library,Indiana University,Upland Gamebirds and Marsh-Dwellers,Unthreatened,obj1
+obj2,John James Audubon,Great-footed Hawk,Birds of America,1,16,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,obj2
+obj3,John James Audubon,Mocking Bird,Birds of America,1,21,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened, obj3
+obj4,John James Audubon,Carolina Parrot,Birds of America,1,26,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Extinct,obj4
+obj5,John James Audubon,White-headed Eagle,Birds of America,1,31,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened, obj5
+obj6,John James Audubon,Ruby-throated Hummingbird,Birds of America,1,47,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened,obj6
+obj7,John James Audubon,Red-shouldered Hawk,Birds of America,1,56,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,obj7
+obj8,John James Audubon,Swamp Sparrow,Birds of America,1,64,Lilly Library,Indiana University,Flockers and Songbirds,Unthreatened,obj8
+obj9,John James Audubon,Ivory-billed Woodpecker,Birds of America,1,66,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Endangered,obj9
+obj10,John James Audubon,House Wren,Birds of America,1,83,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened,ob10
+obj11,John James Audubon,Raven,Birds of America,2,101,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened,ob11
+obj12,John James Audubon,Blue Jay,Birds of America,2,102,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened,ob12
+obj13,John James Audubon,Black Vulture,Birds of America,2,106,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,ob13
+obj14,John James Audubon,Ferruginous Thrush,Birds of America,2,116,Lilly Library,Indiana University,Songsters and Mimics,Unthreatened,ob14
+obj15,John James Audubon,Pewit Flycatcher,Birds of America,2,120,Lilly Library,Indiana University,Gleaners of Forest and Meadow,Unthreatened,ob15
+obj16,John James Audubon,Snowy Owl,Birds of America,2,121,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened,ob16
+obj17,John James Audubon,Cardinal Grosbeak,Birds of America,2,159,Lilly Library,Indiana University,Flockers and Songbirds,Unthreatened,ob17
+obj18,John James Audubon,Barn Owl,Birds of America,2,171,Lilly Library,Indiana University,"Showy Birds, Nocturnal Hunters and Superb Aerialists",Unthreatened,ob18
+obj19,John James Audubon,Golden Eagle,Birds of America,2,181,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,ob19
+obj20,John James Audubon,Bachman's Warbler,Birds of America,2,185,Lilly Library,Indiana University,Woodland Sprites,Endangered,ob20
+obj21,John James Audubon,Red-throated Diver,Birds of America,3,202,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,ob21
+obj22,John James Audubon,Booby Gannet,Birds of America,3,207,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,ob22
+obj23,John James Audubon,Esquimaux Curlew,Birds of America,3,208,Lilly Library,Indiana University,Shorebirds,Endangered,ob23
+obj24,John James Audubon,Razor billed Auk,Birds of America,3,214,Lilly Library,Indiana University,Seabirds,Endangered,ob24
+obj25,John James Audubon,Louisiana Heron,Birds of America,3,217,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,ob25
+obj26,John James Audubon,Foolish Guillemot,Birds of America,3,218,Lilly Library,Indiana University,Seabirds,Unthreatened,ob26
+obj27,John James Audubon,Whooping Crane,Birds of America,3,226,Lilly Library,Indiana University,Upland Gamebirds and Marsh-Dwellers,Endangered,ob27
+obj28,John James Audubon,Long-billed Curlew,Birds of America,3,231,Lilly Library,Indiana University,Shorebirds,Unthreatened,ob28
+obj29,John James Audubon,Black Backed Gull,Birds of America,3,241,Lilly Library,Indiana University,Seabirds,Unthreatened,ob29
+obj30,John James Audubon,Snowy Heron,Birds of America,3,242,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,ob30
+obj31,John James Audubon,Eider Duck,Birds of America,3,246,Lilly Library,Indiana University,Waterfowl,Endangered,obj31
+obj32,John James Audubon,Florida Cormorant,Birds of America,3,252,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj32
+obj33,John James Audubon,Common Cormorant,Birds of America,3,266,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj33
+obj34,John James Audubon,Great White Heron,Birds of America,3,281,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj34
+obj35,John James Audubon,Canvas backed Duck,Birds of America,4,301,Lilly Library,Indiana University,Waterfowl,Unthreatened,obj35
+obj36,John James Audubon,Great Northern Diver,Birds of America,4,306,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj36
+obj37,John James Audubon,American White Pelican,Birds of America,4,311,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj37
+obj38,John James Audubon,Black-bellied Darter,Birds of America,4,316,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj38
+obj39,John James Audubon,American Avocet,Birds of America,4,318,Lilly Library,Indiana University,Shorebirds,Unthreatened,obj39
+obj40,John James Audubon,Roseate Spoonbill,Birds of America,4,321,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj40
+obj41,John James Audubon,Common Gannet,Birds of America,4,326,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj41
+obj42,John James Audubon,Goosander or Common Merganser,Birds of America,4,331,Lilly Library,Indiana University,Waterfowl,Unthreatened,obj42
+obj43,John James Audubon,Great Auk,Birds of America,4,341,Lilly Library,Indiana University,Seabirds,Extinct,obj43
+obj44,John James Audubon,Goldn Eye Duck,Birds of America,4,342,Lilly Library,Indiana University,Waterfowl,Unthreatened,obj44
+obj45,John James Audubon,Iceland or Jer Falcon,Birds of America,4,366,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,obj45
+obj46,John James Audubon,Common Buzzard,Birds of America,4,372,Lilly Library,Indiana University,Scavengers and Birds of Prey,Unthreatened,obj46
+obj47,John James Audubon,Great American Egret,Birds of America,4,386,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj47
+obj48,John James Audubon,Glossy Ibis,Birds of America,4,387,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj48
+obj49,John James Audubon,Trumpeter Swan,Birds of America,4,406,Lilly Library,Indiana University,Waterfowl,Unthreatened,obj49
+obj50,John James Audubon,American Flamingo,Birds of America,4,431,Lilly Library,Indiana University,"Divers of Lakes and Bays, Wanderers of Seas and Coasts",Unthreatened,obj50

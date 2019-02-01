@@ -11,7 +11,7 @@ category: Waterfowl
 current_population: Endangered
 permalink: "/audubon/obj31/"
 layout: iiif-item-page
-order: obj31
+order: '31'
 ---
 
 # Eider Duck (_Fuligula Mollissima_), Volume 3, Plate 246

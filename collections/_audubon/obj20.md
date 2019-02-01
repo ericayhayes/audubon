@@ -11,7 +11,7 @@ category: Woodland Sprites
 current_population: Endangered
 permalink: "/audubon/obj20/"
 layout: iiif-item-page
-order: obj20
+order: '20'
 ---
 
 # Bachman's Warbler (_Sylvia Bachmanii_), Volume 2, Plate 185

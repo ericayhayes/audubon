@@ -11,7 +11,7 @@ category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
 permalink: "/audubon/obj6/"
 layout: iiif-item-page
-order: obj6
+order: '6'
 ---
 
 # Ruby-throated Hummingbird (_Trochilus colubris_), Volume 1, Plate 47

@@ -11,7 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj5/"
 layout: iiif-item-page
-order: obj5
+order: '5'
 ---
 
 # White-headed Eagle (_Haliacetus leucocepahlus_), Volume 1, Plate 1

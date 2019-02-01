@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj25/"
 layout: iiif-item-page
-order: obj25
+order: '25'
 ---
 
 # Louisiana Heron (_Ardea Ludoviciana_), Volume 3, Plate 217

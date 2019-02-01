@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj47/"
 layout: iiif-item-page
-order: obj47
+order: '47'
 ---
 
 # Great American Egret or White Heron (_Ardea alba_), Volume 4, Plate 386

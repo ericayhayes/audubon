@@ -11,7 +11,7 @@ category: Seabirds
 current_population: Extinct
 permalink: "/audubon/obj43/"
 layout: iiif-item-page
-order: obj43
+order: '43'
 ---
 
 # Great Auk (_Alca impennis_), Volume 4, Plate 341

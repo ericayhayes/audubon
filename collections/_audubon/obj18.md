@@ -11,7 +11,7 @@ category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
 permalink: "/audubon/obj18/"
 layout: iiif-item-page
-order: obj18
+order: '18'
 ---
 
 # Barn Owl (_Strix Flammea_), Volume 2, Plate 171

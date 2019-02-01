@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj21/"
 layout: iiif-item-page
-order: obj21
+order: '21'
 ---
 
 # Red-throated Diver (_Colymbis Septentrionalis_), Volume 3, Plate 202

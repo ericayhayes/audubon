@@ -11,7 +11,7 @@ category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
 permalink: "/audubon/obj16/"
 layout: iiif-item-page
-order: obj16
+order: '16'
 ---
 
 # Snowy Owl (_Strix Nyctea_), Volume 2, Plate 121

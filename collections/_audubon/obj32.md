@@ -11,7 +11,7 @@ category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj32/"
 layout: iiif-item-page
-order: obj32
+order: '32'
 ---
 
 # Florida Cormorant (_Carbo Floridanus_), Volume 3, Plate 252

@@ -11,7 +11,7 @@ category: Scavengers and Birds of Prey
 current_population: Unthreatened
 permalink: "/audubon/obj13/"
 layout: iiif-item-page
-order: obj13
+order: '13'
 ---
 
 # Black Vulture or Carrion Crow (_Cathartes Atratus_), Volume 2, Plate 102
