@@ -106,7 +106,7 @@ header & nav bar
     padding: 0 !important;
     margin: 0 !important; }
     #header-block .navbar .navbar-toggler {
-      margin: 1rem; }
+    /*margin: 1rem;*/ }
 
 #header-spacer {
   height: 100px; }
