@@ -271,6 +271,7 @@ search box
   font-family: "benton-sans, sans-serif;"
   font-weight: 400;
   color: white;
+  display: block;
   border: 1px solid;
   background-color: #731d15;
   margin: 0;
