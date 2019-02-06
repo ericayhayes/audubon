@@ -356,6 +356,10 @@ search box
     color: white;
 }
 
+h4.panel-title {
+  width: 215%
+}
+
 
 @media only screen and (max-width: 600px){
     .navbar-brand {
