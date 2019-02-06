@@ -1,4 +1,4 @@
-<div id="wax-banner">
+<div id="banner-audubon">
   {% assign i = 1 %}
   {% for item in include.banner %}
 
@@ -12,13 +12,13 @@
 
 
 
-      <div class="banner-item">
+      <div>
         <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">
-          <div class="banner-img">
-              <img src="{{ image_uri }}" style="transform: {{ transform-css }};"/>
+          <div>
+              <img src="{{ image_uri }}" class="img-fluid"/>
           </div>
         </a>
-          <span class="banner-caption">{{ caption }}</span>
+          <div>{{ caption }}</div>
 
       </div>
 
