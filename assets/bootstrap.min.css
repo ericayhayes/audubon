@@ -2502,6 +2502,9 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
     color: #fff;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
     background-color: #6c757d;
     border-color: #6c757d
 }
@@ -5416,6 +5419,7 @@ input[type=submit].btn-block {
 
 .list-group-item:last-child {
     margin-bottom: 0;
+    background-color: #dedec5;
     border-bottom-right-radius: .25rem;
     border-bottom-left-radius: .25rem
 }
