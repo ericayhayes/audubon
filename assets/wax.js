@@ -1,6 +1,6 @@
 // banner
 
-function resizeWaxBanner() {
+/*function resizeWaxBanner() {
   if ( $( "#wax-banner" ).length ) {
     var $waxBanner = $('#wax-banner');
     var bannerImgHeight = $waxBanner.find('.banner-img').height(); //all wax banner images have same height
@@ -21,7 +21,7 @@ function nextSlide() {
     resizeWaxBanner();
   }
 }
-setInterval(nextSlide, 3000);
+setInterval(nextSlide, 3000);*/
 
 // metadata table
 
@@ -64,7 +64,7 @@ function loadIIIFViewer(manifest_uri) {
 // on load
 
 resizeMetaBox();
-resizeWaxBanner();
+//resizeWaxBanner();
 
 if (typeof(manifest) != "undefined"){
   loadIIIFViewer(manifest);
@@ -74,5 +74,13 @@ if (typeof(manifest) != "undefined"){
 
 $(window).on('resize', function(){
   resizeMetaBox();
-  resizeWaxBanner();
+  //resizeWaxBanner();
 })
+
+$(document).ready(function(){
+  $('#banner-audubon').slick({
+    autoplay:true,
+    autoplaySpeed: 2000,
+    arrows: false,
+  });
+});
