@@ -13,13 +13,10 @@
 
 
       <div>
-        <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/">
-          <div>
-              <img src="{{ image_uri }}" class="img-fluid"/>
-          </div>
-        </a>
-          <div>{{ caption }}</div>
-
+        <div style="background-image: url('{{ image_uri }}')" class="banner-image">
+          <a href="{{ site.baseurl }}/{{ item.collection }}/{{ item.pid }}/"></a>
+        </div>
+        <div>{{ caption }}</div>
       </div>
 
     {% assign i = i | plus: 1 %}
