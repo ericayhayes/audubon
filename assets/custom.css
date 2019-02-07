@@ -259,12 +259,23 @@ search box
 .img-with-text {
     text-align: justify;
     width: 190px;
+    margin-top: 25px;
+    margin-left: 50px;
 }
 
 .img-with-text img {
     display: block;
     margin: 0 auto;
 }
+
+.johnaudubon img {
+  width: 500px;
+  float: left;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  height: 650px;
+}
+
 
 .banner-image {
   background-size: cover;
