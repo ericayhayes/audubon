@@ -268,17 +268,17 @@ search box
 
 .banner-image {
   background-size: cover;
-  height: 320px;
+  height: 200px;
   background-position: center;
 }
-@media only screen and (min-width: 625px){
+@media only screen and (min-width: 550px){
   .banner-image {
     height: 450px;
   }
 }
 @media only screen and (min-width: 1200px){
   .banner-image {
-    height: 690px;
+    height: 693px;
   }
 }
 .banner-image > a {
