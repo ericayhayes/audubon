@@ -36,7 +36,7 @@ html, body {
 
 
 p.birdname {
-    font-family: "benton-sans, sans-serif";
+    font-family: "benton-sans, sans-serif;"
     font-weight: 400;
     text-align: center;
     margin: 0.5rem 0 0.5rem 0;
@@ -45,7 +45,7 @@ p.birdname {
 }
 
 p {
-  font-family: "benton-sans, sans-serif";
+  font-family: "benton-sans, sans-serif;"
   font-weight:400;
   /*text-align: justify;*/
   color: #000000;
