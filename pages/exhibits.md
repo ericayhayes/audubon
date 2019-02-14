@@ -6,11 +6,10 @@ permalink: /exhibits/
 
 {% include mirador_iiif.html m1='/audubon/iiif/audubon/obj16/manifest.json' m2='/audubon/iiif/audubon/obj18/manifest.json'%}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut mauris quis nunc blandit sollicitudin. Etiam ut gravida purus. Maecenas in tincidunt dui. Aliquam ullamcorper, dolor in bibendum suscipit, turpis elit gravida risus, nec accumsan quam risus vitae purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam eget posuere ante, nec laoreet libero. Curabitur semper turpis ac odio gravida, sed volutpat ligula interdum. Vivamus enim nunc, scelerisque vitae ornare eu, gravida quis risus. Nunc ac odio pulvinar, imperdiet enim aliquam, auctor odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In blandit ut urna at aliquet.
 
-## Lorem ipsum
+## Browse and Compare Images from _Birds of America_
 
-Vestibulum convallis quam sed purus fringilla, at tristique ante efficitur. Integer est est, molestie euismod nibh in, convallis ultrices metus. Sed pharetra dolor vitae arcu malesuada elementum. Fusce feugiat a tellus sed iaculis. Vestibulum luctus augue vel auctor mattis. Donec a lorem luctus, tristique sem ut, lobortis felis. Mauris gravida porttitor odio, quis venenatis elit gravida vitae. Donec mattis, ante vitae sodales scelerisque, tellus metus malesuada tortor, nec tincidunt felis eros sed leo. Pellentesque venenatis justo id ultrices pellentesque. Nam quam purus, dictum ultrices lobortis eget, auctor sed purus. Donec pulvinar aliquet leo sed suscipit. In placerat lobortis velit at molestie.
+Use Project Mirador to compare images from _Birds of America_.
 
 #### In placerat lobortis velit at molestie
 
