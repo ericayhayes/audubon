@@ -40,7 +40,7 @@ html, body {
   color: #731d15; }
 
 #main p.category {
-    font-family: "benton-sans, sans-serif;"
+    
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -49,7 +49,6 @@ html, body {
 }
 
 #main p.population {
-    font-family: "benton-sans, sans-serif;"
     font-weight: bold;
     font-size: 20px;
     text-align: center;
