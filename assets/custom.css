@@ -70,7 +70,7 @@ html, body {
 p {
   font-family: "benton-sans, sans-serif;"
   font-weight:400;
-  text-align: justify;
+  /*text-align: justify;*/
   color: #000000;
   margin: 2rem 0 2rem 0;
   font-size: 1.2rem; }
