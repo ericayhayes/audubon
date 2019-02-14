@@ -1,7 +1,7 @@
 ---
 pid: obj44
 artist: John James Audubon
-title: Goldn Eye Duck
+title: Golden Eye Duck
 source: Birds of America
 volume: '4'
 plate: '342'
