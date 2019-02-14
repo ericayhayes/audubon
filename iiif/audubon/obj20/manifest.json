@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj20/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj20",
+  "label": "Bachman's Warbler",
   "thumbnail": "/audubon/iiif/audubon/images/obj20-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

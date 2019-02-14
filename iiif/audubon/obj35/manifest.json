@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj35/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj35",
+  "label": "Canvas backed Duck",
   "thumbnail": "/audubon/iiif/audubon/images/obj35-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

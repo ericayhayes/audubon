@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj26/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj26",
+  "label": "Foolish Guillemot",
   "thumbnail": "/audubon/iiif/audubon/images/obj26-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

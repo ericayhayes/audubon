@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj10/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj10",
+  "label": "House Wren",
   "thumbnail": "/audubon/iiif/audubon/images/obj10-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

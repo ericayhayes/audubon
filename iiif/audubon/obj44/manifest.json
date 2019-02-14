@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj44/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj44",
+  "label": "Golden Eye Duck",
   "thumbnail": "/audubon/iiif/audubon/images/obj44-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

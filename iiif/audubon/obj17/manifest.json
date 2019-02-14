@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj17/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj17",
+  "label": "Cardinal Grosbeak",
   "thumbnail": "/audubon/iiif/audubon/images/obj17-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

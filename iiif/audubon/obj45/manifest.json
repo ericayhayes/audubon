@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj45/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj45",
+  "label": "Iceland or Jer Falcon",
   "thumbnail": "/audubon/iiif/audubon/images/obj45-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj33/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj33",
+  "label": "Common Cormorant",
   "thumbnail": "/audubon/iiif/audubon/images/obj33-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

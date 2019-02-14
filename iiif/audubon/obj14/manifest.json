@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj14/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj14",
+  "label": "Ferruginous Thrush",
   "thumbnail": "/audubon/iiif/audubon/images/obj14-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

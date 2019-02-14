@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj47/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj47",
+  "label": "Great American Egret",
   "thumbnail": "/audubon/iiif/audubon/images/obj47-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

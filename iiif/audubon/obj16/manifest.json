@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj16/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj16",
+  "label": "Snowy Owl",
   "thumbnail": "/audubon/iiif/audubon/images/obj16-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",

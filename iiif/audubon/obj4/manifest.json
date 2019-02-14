@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "/audubon/iiif/audubon/obj4/manifest.json",
   "@type": "sc:Manifest",
-  "label": "obj4",
+  "label": "Carolina Parrot",
   "thumbnail": "/audubon/iiif/audubon/images/obj4-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
   "viewingHint": "individuals",
