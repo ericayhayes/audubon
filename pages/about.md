@@ -6,7 +6,7 @@ permalink: /about/
 
 
 
-<img style="width: 500px; float: left;width: 750; padding-right: 25px; padding-bottom: 20px; height: 650px;" src="http://eyhayes.com/audubon/images/John-J-Audubon.jpg" alt="johnjaudubon"/>
+<img class="johnjaudubon" src="http://eyhayes.com/audubon/images/John-J-Audubon.jpg" alt="johnjaudubon"/>
 
 ### John James Audubon
 

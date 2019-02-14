@@ -268,14 +268,28 @@ search box
     margin: 0 auto;
 }
 
-.johnaudubon img {
-  width: 500px;
-  float: left;
-  padding-right: 25px;
-  padding-bottom: 20px;
-  height: 650px;
+.johnjaudubon {
+  width: 100%;
+  height: auto;
+
 }
 
+@media only screen and (min-width: 550px){
+  .johnjaudubon {
+    height: 350px;
+    width: auto;
+    float: left;
+    padding-right: 25px;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .johnjaudubon {
+    height: 550px;
+
+
+  }
+}
 
 .banner-image {
   background-size: cover;

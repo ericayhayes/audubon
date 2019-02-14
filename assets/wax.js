@@ -78,9 +78,11 @@ $(window).on('resize', function(){
 })
 
 $(document).ready(function(){
+if ( $( "#banner-audubon" ).length ) {  
   $('#banner-audubon').slick({
-    autoplay:true,
-    autoplaySpeed: 2000,
-    arrows: false,
-  });
+      autoplay:true,
+      autoplaySpeed: 2000,
+      arrows: false,
+    });
+  }
 });
