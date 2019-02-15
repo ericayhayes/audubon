@@ -6,7 +6,8 @@ source: Birds of America
 volume: '1'
 plate: '21'
 repository: Lilly Library
-current_location: Indiana University
+current_location: Indiana University, Bloomington
+Copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Songsters and Mimics
 current_population: Unthreatened
 permalink: "/audubon/obj3/"
