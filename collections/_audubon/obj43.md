@@ -6,7 +6,8 @@ source: Birds of America
 volume: '4'
 plate: '341'
 repository: Lilly Library
-current_location: Indiana University
+current_location: Indiana University, Bloomington
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Seabirds
 current_population: Extinct
 permalink: "/audubon/obj43/"

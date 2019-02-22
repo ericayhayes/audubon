@@ -6,7 +6,8 @@ source: Birds of America
 volume: '4'
 plate: '306'
 repository: Lilly Library
-current_location: Indiana University
+current_location: Indiana University, Bloomington
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 permalink: "/audubon/obj36/"

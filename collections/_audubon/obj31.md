@@ -6,7 +6,8 @@ source: Birds of America
 volume: '3'
 plate: '246'
 repository: Lilly Library
-current_location: Indiana University
+current_location: Indiana University, Bloomington
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Waterfowl
 current_population: Endangered
 permalink: "/audubon/obj31/"

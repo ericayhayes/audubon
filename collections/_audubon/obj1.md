@@ -7,7 +7,7 @@ volume: '1'
 plate: '1'
 repository: Lilly Library
 current_location: Indiana University, Bloomington
-Copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Upland Gamebirds and Marsh-Dwellers
 current_population: Unthreatened
 permalink: "/audubon/obj1/"
