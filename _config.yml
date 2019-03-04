@@ -1,25 +1,42 @@
 # main settings
 title:            Selections from John James Audubon's Birds of America at the Lilly Library
-description:      online exhibit of the Lilly Librarys 1st edition of John James Audubon''s Birds of America.  This site was created using wax/minimal exhibitions
-url:              ''
-baseurl:          /audubon
+description:      Online exhibit of the Lilly Librarys 1st edition of John James Audubon''s Birds of America.  This site was created using wax/minimal exhibitions
+url:              'https://ericayhayes.github.io'
+baseurl:          '/audubon'
 
 # build settings
 permalink:        pretty
-exclude:          [Gemfile*, Rakefile, node_modules, vendor, spec, README.md]
-collections_dir:  collections
+exclude:          [Gemfile*, Rakefile, node_modules, vendor, spec, README.md, wax_tasks]
 
 # wax collection settings
 collections:
   audubon:
     output: true
-    source: audubon.csv
     layout: iiif-item-page
-    lunr_index:
-      content: false
-      fields: [pid, artist, title, source, volume, plate, repository, current_location, category, current_population]
-    iiif:
-      label: title
+    metadata:
+      source: audubon.csv
+    images:
+      source: iiif/audubon
+      iiif:
+        label: title
+
+# wax search index settings
+lunr_index:
+  - file: 'js/lunr-index.json'
+    collections:
+      audubon:
+        content: false
+        fields:
+          - artist
+          - title
+          - source
+          - volume
+          - plate
+          - repository
+          - current_location
+          - category
+          - current_population
+
 
 # menu settings
 menu:

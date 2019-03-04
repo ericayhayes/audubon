@@ -20,7 +20,7 @@ layout: fluid
     </div>-->
 <div id="facet-buttons-mobile" class="d-block d-sm-none" style="width:100%;">
     <div class="dropdown">
-      <div class="panel-group" id="accordion">
+      <div class="panel-group">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
@@ -38,7 +38,7 @@ layout: fluid
             </div>
           </div>
     </div>
-    <div class="panel-group" id="accordion">
+    <div class="panel-group">
           <div class="panel panel-default">
             <div class="panel-heading">
               <h4 class="panel-title">
@@ -63,12 +63,12 @@ layout: fluid
     <div id="gallery" class="col-xs-12 col-sm-8 col-md-9 col-lg-10">
         {% for item in the_collection %}
         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 col-lg-offset-1 {{ item[page.facet_by]}} {{item[page.facet_population] }} all">
-            <a href="{{ site.baseurl }}/{{ page.collection }}/{{ item.pid }}/">
-                <div class="img-with-text">
-                    <img class="img-responsive gallery-thumb" src="{{ site.baseurl }}/iiif/{{ page.collection }}/cropped/{{ item.pid }}-1/default.jpg">
-                        <p class="birdname">{{ item.title }}</p>
-                        <p class="birdname">Plate {{ item.plate }}</p>
-                </div>
+            <a href="{{ '' | absolute_url }}/{{ page.collection }}/{{ item.pid }}/">
+              <div class="img-with-text">
+                  <img class="img-responsive gallery-thumb" src="{{ '' | absolute_url }}/img/cropped/{{ item.pid }}/default.jpg">
+                  <p class="birdname">{{ item.title }}</p>
+                  <p class="birdname">Plate {{ item.plate }}</p>
+              </div>
             </a>
         </div>
         {% endfor %}
