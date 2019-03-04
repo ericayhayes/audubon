@@ -1,11 +1,11 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "/audubon/iiif/audubon/obj1/manifest.json",
+  "@id": "https://ericayhayes.github.io/audubon/iiif/audubon/obj1/manifest.json",
   "@type": "sc:Manifest",
   "label": "Wild Turkey",
   "thumbnail": "/audubon/iiif/audubon/images/obj1-1/full/250,/0/default.jpg",
   "viewingDirection": "left-to-right",
-  "viewingHint": "individuals",
+  "viewingHint": "paged",
   "sequences": [
     {
       "@id": "/audubon/iiif/audubon/obj1/sequence/default.json",
@@ -41,6 +41,6 @@
         }
       ]
     }
-    
+
   ]
 }
