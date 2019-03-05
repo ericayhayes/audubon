@@ -10,7 +10,7 @@ current_location: Indiana University, Bloomington
 copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Scavengers and Birds of Prey
 current_population: Unthreatened
-order: '013'
+order: '13'
 manifest: "/img/derivatives/iiif/obj13/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj13/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj13/full/1140,/0/default.jpg"

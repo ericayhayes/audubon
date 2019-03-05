@@ -10,7 +10,7 @@ current_location: Indiana University
 copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Gleaners of Forest and Meadow
 current_population: Unthreatened
-order: '015'
+order: '15'
 manifest: "/img/derivatives/iiif/obj15/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj15/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj15/full/1140,/0/default.jpg"

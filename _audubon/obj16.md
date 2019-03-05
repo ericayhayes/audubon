@@ -10,7 +10,7 @@ current_location: Indiana University
 copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
-order: '016'
+order: '16'
 manifest: "/img/derivatives/iiif/obj16/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj16/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj16/full/1140,/0/default.jpg"

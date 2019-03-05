@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
-order: '018'
+order: '18'
 manifest: "/img/derivatives/iiif/obj18/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj18/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj18/full/1140,/0/default.jpg"

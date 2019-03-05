@@ -10,7 +10,7 @@ current_location: Indiana University
 copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Songsters and Mimics
 current_population: Unthreatened
-order: '014'
+order: '14'
 manifest: "/img/derivatives/iiif/obj14/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj14/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj14/full/1140,/0/default.jpg"
