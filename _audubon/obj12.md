@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Gleaners of Forest and Meadow
 current_population: Unthreatened
-order: ob12
+order: '012'
 manifest: "/img/derivatives/iiif/obj12/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj12/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj12/full/1140,/0/default.jpg"
