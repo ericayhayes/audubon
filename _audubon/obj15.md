@@ -7,7 +7,7 @@ volume: '2'
 plate: '120'
 repository: Lilly Library
 current_location: Indiana University
-copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
+copyright: The Lilly Library, Indiana University, Bloomington, Indiana
 category: Gleaners of Forest and Meadow
 current_population: Unthreatened
 order: '15'

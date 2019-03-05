@@ -6,7 +6,8 @@ source: Birds of America
 volume: '2'
 plate: '159'
 repository: Lilly Library
-current_location: Indiana University
+current_location: Indiana University, Bloomington
+copyright: The Lilly Library, Indiana University, Bloomington, Indiana
 category: Flockers and Songbirds
 current_population: Unthreatened
 order: '17'
