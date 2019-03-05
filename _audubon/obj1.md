@@ -10,7 +10,7 @@ current_location: Indiana University, Bloomington
 copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Upland Gamebirds and Marsh-Dwellers
 current_population: Unthreatened
-order: '01'
+order: '001'
 manifest: "/img/derivatives/iiif/obj1/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj1/full/1140,/0/default.jpg"
