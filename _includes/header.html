@@ -3,8 +3,7 @@
     <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center nopadding">
       <!--<img src="https://assets.iu.edu/brand/3.x/trident-large.png" alt="logo" style="width: 50px; height:50;" />-->
       <span id="title">
-        <a href="{{ site.baseurl }}/" class="navbar-brand d-flex" title="Home" style="font-family: "benton-sans, sans-serif;"
-        font-weight:400;">
+        <a href="{{ site.baseurl }}/" class="navbar-brand d-flex" title="Home" style="font-family: benton-sans, sans-serif; font-weight:400;">
           <!--<span class="icon baseline logo"></span>-->
           {{ site.title | newline_to_br }}
         </a>
@@ -14,7 +13,7 @@
       </button>
       <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
 
-        <ul class="nav navbar-nav ml-auto w-100 justify-content-end" style="font-family: "benton-sans, sans-serif;">
+        <ul class="nav navbar-nav ml-auto w-100 justify-content-end" style="font-family: benton-sans, sans-serif;">
           {% for item in site.menu %}
             {% if item.sub %}
             <li class="nav-item dropdown">

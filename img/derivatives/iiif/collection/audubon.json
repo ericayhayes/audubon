@@ -1,0 +1,261 @@
+---
+layout: none
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/collection/audubon.json",
+  "@type": "sc:Collection",
+  "label": "audubon",
+  "manifests": [
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj49/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Trumpeter Swan"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj48/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Glossy Ibis"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj10/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "House Wren"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj38/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Black-bellied Darter"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj5/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "White-headed Eagle"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj4/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Carolina Parrot"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj39/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "American Avocet"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj11/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Raven"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj13/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Black Vulture"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj6/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Ruby-throated Hummingbird"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj7/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Red-shouldered Hawk"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj12/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Blue Jay"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj16/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Snowy Owl"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj3/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Mocking Bird"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj2/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Great-footed Hawk"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj17/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Cardinal Grosbeak"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj29/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Black Backed Gull"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj15/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Pewit Flycatcher"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj1/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "The Wild Turkey"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj14/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Ferruginous Thrush"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj28/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Long-billed Curlew"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj25/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Louisiana Heron"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj31/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Eider Duck"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj19/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Golden Eagle"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj18/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Barn Owl"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj30/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Snowy Heron"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj24/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Razor billed Auk"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj32/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Florida Cormorant"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj26/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Foolish Guillemot"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj27/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Whooping Crane"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj33/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Common Cormorant"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj37/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "American White Pelican"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj23/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Esquimaux Curlew"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj22/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Booby Gannet"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj36/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Great Northern Diver"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj20/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Bachman's Warbler"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj34/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Great White Heron"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj9/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Ivory-billed Woodpecker"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj8/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Swamp Sparrow"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj35/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Canvas backed Duck"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj21/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Red-throated Diver"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj46/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Common Buzzard"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj47/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Great American Egret"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj45/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Iceland or Jer Falcon"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj44/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Goldn Eye Duck"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj50/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "American Flamingo"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj40/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Roseate Spoonbill"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj41/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Common Gannet"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj43/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Great Auk"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj42/manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Goosander or Common Merganser"
+    }
+  ]
+}
