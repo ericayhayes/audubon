@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Flockers and Songbirds
 current_population: Unthreatened
-order: ob17
+order: '017'
 manifest: "/img/derivatives/iiif/obj17/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj17/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj17/full/1140,/0/default.jpg"

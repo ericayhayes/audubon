@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Shorebirds
 current_population: Endangered
-order: ob23
+order: '23'
 manifest: "/img/derivatives/iiif/obj23/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj23/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj23/full/1140,/0/default.jpg"

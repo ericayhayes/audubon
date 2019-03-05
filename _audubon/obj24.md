@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Seabirds
 current_population: Endangered
-order: ob24
+order: '24'
 manifest: "/img/derivatives/iiif/obj24/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj24/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj24/full/1140,/0/default.jpg"

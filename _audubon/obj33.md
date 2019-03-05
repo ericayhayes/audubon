@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
-order: obj33
+order: '33'
 manifest: "/img/derivatives/iiif/obj33/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj33/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj33/full/1140,/0/default.jpg"

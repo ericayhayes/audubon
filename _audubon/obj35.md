@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Waterfowl
 current_population: Unthreatened
-order: obj35
+order: '35'
 manifest: "/img/derivatives/iiif/obj35/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj35/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj35/full/1140,/0/default.jpg"

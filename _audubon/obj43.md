@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Seabirds
 current_population: Extinct
-order: obj43
+order: '43'
 manifest: "/img/derivatives/iiif/obj43/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj43/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj43/full/1140,/0/default.jpg"
