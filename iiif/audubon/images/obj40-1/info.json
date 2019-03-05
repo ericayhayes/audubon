@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "/audubon/iiif/audubon/images/obj40-1",
+  "protocol": "http://iiif.io/api/image",
+  "width": 4200,
+  "height": 2832,
+  "sizes": [
+    {
+      "width": 4200,
+      "height": 2832
+    },
+    {
+      "width": 250,
+      "height": 169
+    },
+    {
+      "width": 600,
+      "height": 405
+    },
+    {
+      "width": 1140,
+      "height": 769
+    }
+  ],
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "supports": [
+        "cors",
+        "sizeByWhListed",
+        "baseUriRedirect"
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "width": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ]
+    }
+  ]
+}

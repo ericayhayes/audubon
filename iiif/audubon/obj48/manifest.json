@@ -1,0 +1,45 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "/audubon/iiif/audubon/obj48/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Glossy Ibis",
+  "thumbnail": "/audubon/iiif/audubon/images/obj48-1/full/250,/0/default.jpg",
+  "viewingDirection": "left-to-right",
+  "viewingHint": "individuals",
+  "sequences": [
+    {
+      "@id": "/audubon/iiif/audubon/obj48/sequence/default.json",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "/audubon/iiif/audubon/obj48/canvas/front.json",
+          "label": "front",
+          "width": 4256,
+          "height": 2832,
+          "thumbnail": "/audubon/iiif/audubon/images/obj48-1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "/audubon/iiif/audubon/obj48/annotation/front.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "/audubon/iiif/audubon/images/obj48-1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "/audubon/iiif/audubon/images/obj48-1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 4256,
+                "height": 2832
+              },
+              "on": "/audubon/iiif/audubon/obj48/canvas/front.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

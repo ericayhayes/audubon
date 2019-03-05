@@ -4,9 +4,7 @@ title: Exhibits
 permalink: /exhibits/
 ---
 
-{% assign m1 = '/img/derivatives/iiif/obj16/manifest.json' | absolute_url %}
-{% assign m2 = '/img/derivatives/iiif/obj18/manifest.json' | absolute_url %}
-{% include mirador_iiif.html m1=m1 m2=m2 %}
+{% include mirador_iiif.html m1='/audubon/iiif/audubon/obj16/manifest.json' m2='/audubon/iiif/audubon/obj18/manifest.json'%}
 
 
 ## Browse and Compare Images from _Birds of America_

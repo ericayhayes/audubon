@@ -7,5 +7,6 @@ group :development, :test do
   gem 'chromedriver-helper'
   gem 'capybara'
   gem 'rack-jekyll'
-  gem 'wax_tasks', '1.0.0.pre.beta'
+  gem 'wax_tasks'
+
 end

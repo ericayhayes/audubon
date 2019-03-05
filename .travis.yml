@@ -6,6 +6,6 @@ rvm:
   - 2.4
 before_script:
   - bundle exec rake wax:lunr
-  - bundle exec jekyll build -d _site/audubon
+  - bundle exec jekyll build -d _site
 script:
   - bundle exec rake wax:test
