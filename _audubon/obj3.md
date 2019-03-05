@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Songsters and Mimics
 current_population: Unthreatened
-order: " obj3"
+order: "03"
 manifest: "/img/derivatives/iiif/obj3/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj3/full/1140,/0/default.jpg"

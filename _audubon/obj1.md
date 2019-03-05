@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Upland Gamebirds and Marsh-Dwellers
 current_population: Unthreatened
-order: obj1
+order: '01'
 manifest: "/img/derivatives/iiif/obj1/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj1/full/1140,/0/default.jpg"

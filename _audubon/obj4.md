@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Extinct
-order: obj4
+order: '04'
 manifest: "/img/derivatives/iiif/obj4/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj4/full/1140,/0/default.jpg"

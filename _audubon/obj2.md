@@ -9,7 +9,7 @@ repository: Lilly Library
 current_location: Indiana University
 category: Scavengers and Birds of Prey
 current_population: Unthreatened
-order: obj2
+order: '02'
 manifest: "/img/derivatives/iiif/obj2/manifest.json"
 thumbnail: "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg"
 full: "/img/derivatives/iiif/images/obj2/full/1140,/0/default.jpg"
