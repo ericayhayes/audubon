@@ -40,7 +40,7 @@ html, body {
   color: #731d15; }
 
 #main p.category {
-    
+
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -332,7 +332,7 @@ search box
 
   }
 }
- 
+
 
 .banner-image {
   background-size: cover;
@@ -368,7 +368,9 @@ search box
 }
 #wax-gallery #gallery {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-left: -50px;
+ }
   #wax-gallery #gallery .gallery-item {
     padding: 0;
     margin: 0;
