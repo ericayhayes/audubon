@@ -1,0 +1,107 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://f0bfb95e-2bd2-4d86-a5a8-45a2c952be04",
+	"@type": "sc:Manifest",
+	"label": [],
+	"metadata": [],
+	"description": [
+		{
+			"@value": "John James Audubon's Selections of Birds of America at the Lilly Library",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana",
+	"sequences": [
+		{
+			"@id": "http://97caad94-df39-45e8-b677-e1a4c6d9d15a",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://c6fab9d9-8cb2-4b61-84d8-c43ef04f7b55",
+					"@type": "sc:Canvas",
+					"label": "The Wild Turkey",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://049badb7-ca9a-446a-8a81-08f29a6bb731",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://c6fab9d9-8cb2-4b61-84d8-c43ef04f7b55"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://dce8ad27-a7ae-460b-aeef-7e1f716b92d1",
+					"@type": "sc:Canvas",
+					"label": "Great-footed Hawk",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7eaba8b6-7cec-470f-836c-952895918528",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://dce8ad27-a7ae-460b-aeef-7e1f716b92d1"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}
