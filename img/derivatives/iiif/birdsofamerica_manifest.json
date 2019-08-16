@@ -1,0 +1,1893 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://e253e5e6-701c-4918-8c3a-871392668dbd",
+	"@type": "sc:Manifest",
+	"label": "Selections from John James Audubon's Birds of America at the Lilly Library ",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "This manifest includes all 50 plates from Selections from John James Audubon's Birds of America at the Lilly Library",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"attribution": "Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana",
+	"sequences": [
+		{
+			"@id": "http://7695dcdd-5439-484f-87e7-38d16ba61dca",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
+					"@type": "sc:Canvas",
+					"label": "The Wild Turkey",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://8bc81653-a4b4-4d4c-8cce-555143c80229",
+					"@type": "sc:Canvas",
+					"label": "Great-footed Hawk",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://8bc81653-a4b4-4d4c-8cce-555143c80229"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://58dd0c06-c688-4178-bedd-3ba5665310eb",
+					"@type": "sc:Canvas",
+					"label": "Mocking Bird",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7aba6978-874c-49c9-ae04-6c184bdb9bcc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://58dd0c06-c688-4178-bedd-3ba5665310eb"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
+					"@type": "sc:Canvas",
+					"label": "Carolina Parrot",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ba5f705f-1250-4d86-95e5-803131568bb9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://9e9115b7-075e-4516-8886-b9ab030f80a3",
+					"@type": "sc:Canvas",
+					"label": "White-headed Eagle",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e3632e2f-1b0e-4119-883b-25ad6304a203",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj5/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj5",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://9e9115b7-075e-4516-8886-b9ab030f80a3"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ee573a77-4cb1-4e89-a5bf-c9b14d2ac934",
+					"@type": "sc:Canvas",
+					"label": "Ruby-throated Hummingbird",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://995516c0-e9f7-4277-9e80-c322fb7fa575",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj6/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj6",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://ee573a77-4cb1-4e89-a5bf-c9b14d2ac934"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://28e6e55e-44bf-4ccb-81a7-ad7326265aae",
+					"@type": "sc:Canvas",
+					"label": "Red-shouldered Hawk",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dadca434-3bb1-4af4-bbda-9df4d1047df7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj7/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj7",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://28e6e55e-44bf-4ccb-81a7-ad7326265aae"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://392c85db-9a34-46de-a48b-b023acf7f67b",
+					"@type": "sc:Canvas",
+					"label": "Swamp Sparrow",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://82342fa3-27f0-4140-b869-26f51add9605",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj8/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj8",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://392c85db-9a34-46de-a48b-b023acf7f67b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://94b87321-f407-49c2-98df-b87734e8aa81",
+					"@type": "sc:Canvas",
+					"label": "Ivory-billed Woodpecker",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://df7391e7-c92a-4c0d-8604-5de154b10943",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj9/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj9",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://94b87321-f407-49c2-98df-b87734e8aa81"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://c573569d-56d9-42ec-bfe9-b32cc848de34",
+					"@type": "sc:Canvas",
+					"label": "House Wren",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a96a95f0-1822-4dc2-9c39-d83b02a0ecf9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj10/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj10",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://c573569d-56d9-42ec-bfe9-b32cc848de34"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1e76733b-e739-4390-a931-c1f5070ab81b",
+					"@type": "sc:Canvas",
+					"label": "Raven",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bc1267eb-a85c-49a7-9598-e2c6c4e47747",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj11/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj11",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://1e76733b-e739-4390-a931-c1f5070ab81b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://278fa44f-eebe-4039-ae1d-dc7c3e2d8694",
+					"@type": "sc:Canvas",
+					"label": "Blue Jay",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e5876b6d-56be-4135-86c8-4b9c08598976",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj12/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj12",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://278fa44f-eebe-4039-ae1d-dc7c3e2d8694"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://510107b1-8480-4ee9-bcae-6fccbd03af83",
+					"@type": "sc:Canvas",
+					"label": "Black Vulture",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://017432b2-a79b-4a7f-87ab-e7f36e36fd48",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj13/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj13",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://510107b1-8480-4ee9-bcae-6fccbd03af83"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://259b852e-2e35-4e9a-83ee-6e3e016d6781",
+					"@type": "sc:Canvas",
+					"label": "Ferruginous Thrush",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ce1a8ca4-5ae6-4f87-b810-53decd6d6185",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj14/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj14",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://259b852e-2e35-4e9a-83ee-6e3e016d6781"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d2ddfffd-1937-4752-b2b6-92f2e697b61a",
+					"@type": "sc:Canvas",
+					"label": "Pewit Flycatcher",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7d6abd37-6647-4558-a4a4-25eb6364650e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj15/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj15",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://d2ddfffd-1937-4752-b2b6-92f2e697b61a"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fce68840-d8db-41b3-af90-3dc8b11ddd74",
+					"@type": "sc:Canvas",
+					"label": "Snowy Owl",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://308ef37d-845c-4706-813b-05cc4a51fc88",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj16/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj16",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://fce68840-d8db-41b3-af90-3dc8b11ddd74"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fe1fe870-1a03-4acc-9683-86b5540ca049",
+					"@type": "sc:Canvas",
+					"label": "Cardinal Grosbeak",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a8a3e9ba-889d-4de1-af82-d24a250fb2a6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj17/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj17",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://fe1fe870-1a03-4acc-9683-86b5540ca049"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://19fa69fb-9f5c-4800-9816-12192f4e93e4",
+					"@type": "sc:Canvas",
+					"label": "Barn Owl",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://65818967-111c-40d5-9958-70e1c0f6e21f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj18/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj18",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://19fa69fb-9f5c-4800-9816-12192f4e93e4"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://74a63844-d56d-450b-b8d4-84c465045b0c",
+					"@type": "sc:Canvas",
+					"label": "Golden Eagle",
+					"height": 4088,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://38940791-988f-4e77-a9fb-03925036c85c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj19/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj19",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4088,
+								"width": 2832
+							},
+							"on": "http://74a63844-d56d-450b-b8d4-84c465045b0c"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d518e22c-d55a-43b8-b4df-9b2533a6d18e",
+					"@type": "sc:Canvas",
+					"label": "Bachman's Warbler",
+					"height": 4100,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://15b5ff27-84d7-47ca-a77d-a6359646f178",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj20/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj20",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4100,
+								"width": 2832
+							},
+							"on": "http://d518e22c-d55a-43b8-b4df-9b2533a6d18e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://7cce55b9-6bd3-45f7-b03a-d00e75ab4b40",
+					"@type": "sc:Canvas",
+					"label": "Red-throated Diver",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5acdd5ab-d1f0-4eb5-91ab-c29a43638ff2",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj21/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj21",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://7cce55b9-6bd3-45f7-b03a-d00e75ab4b40"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://4f257284-f6fe-4eeb-8303-9c7400616d61",
+					"@type": "sc:Canvas",
+					"label": "Booby Gannet",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f187b822-9610-40ac-8594-2fc77b349706",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj22/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj22",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://4f257284-f6fe-4eeb-8303-9c7400616d61"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ec9c65ce-10e0-426a-b101-c35f32ca0138",
+					"@type": "sc:Canvas",
+					"label": "Esquimaux Curlew",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://eccd16c8-2849-4ece-9b5e-5336b8753205",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj23/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj23",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://ec9c65ce-10e0-426a-b101-c35f32ca0138"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://3e619119-7d9e-40ed-b420-c578b168bcb0",
+					"@type": "sc:Canvas",
+					"label": "Razor billed Auk",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f9fd53a1-b293-48bf-8501-48bea4f87bfc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj24/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj24",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://3e619119-7d9e-40ed-b420-c578b168bcb0"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://0fda625f-724e-4c96-af2f-efa6cfd5c2bb",
+					"@type": "sc:Canvas",
+					"label": "Louisiana Heron",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3779c7b3-8ee9-4df3-b3d8-228e489fa0f7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj25/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj25",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://0fda625f-724e-4c96-af2f-efa6cfd5c2bb"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://64eb1562-d147-4ceb-ab19-52b654ec2e44",
+					"@type": "sc:Canvas",
+					"label": "Foolish Guillemot",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://99c56910-ff0c-4ac5-bf7a-b532884cc718",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj26/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj26",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://64eb1562-d147-4ceb-ab19-52b654ec2e44"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://31ae7df6-976c-49c6-8295-9c186d217d4d",
+					"@type": "sc:Canvas",
+					"label": "Whooping Crane",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6abad85e-cb9a-4ee3-b566-d0c03437d13c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj27/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj27",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://31ae7df6-976c-49c6-8295-9c186d217d4d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://002810b2-7524-4708-8465-3abe87d565df",
+					"@type": "sc:Canvas",
+					"label": "Long-billed Curlew",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b48258e7-d24f-4be8-b559-fd78a0f7a078",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj28/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj28",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://002810b2-7524-4708-8465-3abe87d565df"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://37dc5ef0-79eb-4d41-9954-1705b4ce074b",
+					"@type": "sc:Canvas",
+					"label": "Black Backed Gull",
+					"height": 4124,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c3cb41ca-d5fe-4c5e-9713-6526ab1d5c9a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj29/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj29",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4124,
+								"width": 2832
+							},
+							"on": "http://37dc5ef0-79eb-4d41-9954-1705b4ce074b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://b6dd0db9-d49f-4d57-aa8c-e5ad9b800d6e",
+					"@type": "sc:Canvas",
+					"label": "Snowy Heron",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d2fd627f-839c-450c-98f2-74c3a042ff72",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj30/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj30",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://b6dd0db9-d49f-4d57-aa8c-e5ad9b800d6e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://34e2bad7-10c0-4abe-bef1-cc47bf6bab5e",
+					"@type": "sc:Canvas",
+					"label": "Eider Duck",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1840b067-b75f-476b-ab92-a5e998c4dbb0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj31/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj31",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://34e2bad7-10c0-4abe-bef1-cc47bf6bab5e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://aa004b1f-6c08-4c43-97ca-877a5346cd1d",
+					"@type": "sc:Canvas",
+					"label": "Florida Cormorant",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d2f5522e-7c6c-4a61-a726-0d67acb7b502",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj32/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj32",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://aa004b1f-6c08-4c43-97ca-877a5346cd1d"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://db5a336f-c32d-4483-9f03-a21518d52312",
+					"@type": "sc:Canvas",
+					"label": "Common Cormorant",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bac7dae2-f0ca-4319-82c1-82a82afa72ff",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj33/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj33",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://db5a336f-c32d-4483-9f03-a21518d52312"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fd962d12-f361-4d09-8a1f-3feaaf6bb7cf",
+					"@type": "sc:Canvas",
+					"label": "Great White Heron",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2dd9282c-4696-4d4b-bd8d-6cff511fefd4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj34/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj34",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://fd962d12-f361-4d09-8a1f-3feaaf6bb7cf"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://fa0d68d6-9d9a-4f79-aab9-d0ce266ba9de",
+					"@type": "sc:Canvas",
+					"label": "Canvas backed Duck",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://459bd8e6-4d7d-4bbe-afe3-724b7c383dad",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj35/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj35",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://fa0d68d6-9d9a-4f79-aab9-d0ce266ba9de"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1199bff8-56e3-4f6a-bf48-1f8a6d7e662b",
+					"@type": "sc:Canvas",
+					"label": "Great Northern Diver",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a599432c-c563-444b-a76b-827ba30a899c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj36/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj36",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://1199bff8-56e3-4f6a-bf48-1f8a6d7e662b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://a7f4d193-4430-444c-80f8-74607533b7fe",
+					"@type": "sc:Canvas",
+					"label": "American White Pelican",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2f01c7cd-d3b0-4d5d-a91f-8a480278a41a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj37/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj37",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://a7f4d193-4430-444c-80f8-74607533b7fe"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://e8b66b1e-1222-448b-b6ba-1338a329d452",
+					"@type": "sc:Canvas",
+					"label": "Black-bellied Darter",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://48ecd20a-acef-4711-8d18-6d7f97a81131",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj38/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj38",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://e8b66b1e-1222-448b-b6ba-1338a329d452"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://cce5292e-6529-4cb1-8f30-eb6eb3d3b1ff",
+					"@type": "sc:Canvas",
+					"label": "American Avocet",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a566bd81-6d0b-426d-80df-50a9a3b2fdb3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj39/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj39",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://cce5292e-6529-4cb1-8f30-eb6eb3d3b1ff"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://bd1aaf92-e225-4f44-a4be-133f84208ff6",
+					"@type": "sc:Canvas",
+					"label": "Roseate Spoonbill",
+					"height": 2832,
+					"width": 4200,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://61fbc8f8-910b-4d2e-9bb9-04975d9170e5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj40/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj40",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4200
+							},
+							"on": "http://bd1aaf92-e225-4f44-a4be-133f84208ff6"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://8944c061-cc9b-4cbe-b62c-bf4af42dce30",
+					"@type": "sc:Canvas",
+					"label": "Common Gannet",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b9c6f7d4-fd48-4fee-bd25-4e21ff6ce241",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj41/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj41",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://8944c061-cc9b-4cbe-b62c-bf4af42dce30"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://62001823-5cda-4db9-9841-c0023ff1b592",
+					"@type": "sc:Canvas",
+					"label": "Goosander or Common Merganser",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://53b87d69-9038-4ce4-abcc-25d85aea2f85",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj42/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj42",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://62001823-5cda-4db9-9841-c0023ff1b592"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://d1d6db30-acd7-41cb-a88a-c66385119297",
+					"@type": "sc:Canvas",
+					"label": "Great Auk",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f8ef2b05-55ff-403c-8dda-840e5d0b0080",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj43/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj43",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://d1d6db30-acd7-41cb-a88a-c66385119297"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://dd19a592-fb08-4213-b9ff-685f14a44867",
+					"@type": "sc:Canvas",
+					"label": "Goldn Eye Duck",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ec8d5b67-037a-4101-98b7-234465586441",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj44/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj44",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://dd19a592-fb08-4213-b9ff-685f14a44867"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://18335a3d-b36b-42fb-a974-01dac89091ce",
+					"@type": "sc:Canvas",
+					"label": "Iceland or Jer Falcon",
+					"height": 4100,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://13b0353a-619e-4020-a3d3-cd3192e617b9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj45/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj45",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4100,
+								"width": 2832
+							},
+							"on": "http://18335a3d-b36b-42fb-a974-01dac89091ce"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5ccac95e-94ec-4d6a-9f78-a1ffb8ca2094",
+					"@type": "sc:Canvas",
+					"label": "Common Buzzard",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b04137d5-969c-4264-868e-d65a889c48f5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj46",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://5ccac95e-94ec-4d6a-9f78-a1ffb8ca2094"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://1dc5666e-35fc-4190-8f59-b402614b9a71",
+					"@type": "sc:Canvas",
+					"label": "Glossy Ibis",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://409f5524-f730-438d-961d-a95078b990c1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://1dc5666e-35fc-4190-8f59-b402614b9a71"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://5c6bae12-5ccb-4b07-b65a-26b20b44d273",
+					"@type": "sc:Canvas",
+					"label": "Trumpeter Swan",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f7f833e3-487b-4410-ae73-891617d6a6f0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj49/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj49",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "http://5c6bae12-5ccb-4b07-b65a-26b20b44d273"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://b21cef78-2c90-4974-a16c-474df9dd9633",
+					"@type": "sc:Canvas",
+					"label": "American Flamingo",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fcd49388-e6fd-4812-8454-8fd8fb9746d0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj50/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj50",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "http://b21cef78-2c90-4974-a16c-474df9dd9633"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right"
+}
