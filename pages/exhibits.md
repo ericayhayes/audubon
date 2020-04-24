@@ -8,6 +8,7 @@ permalink: /exhibits/
 {% assign m2 = '/img/derivatives/iiif/obj18/manifest.json' | absolute_url %}
 {% include mirador_iiif.html m1=m1 m2=m2 %}
 
+<iiif-storyboard annotationlist="https://dnoneill.github.io/annotate/annotations/wh234bz9013-0001-list.json"></iiif-storyboard>
 
 ## Browse and Compare Images from _Birds of America_
 
