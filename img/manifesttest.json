@@ -40,8 +40,6 @@
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
-                        "height":2832,
-                         "width":4256,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
@@ -76,8 +74,6 @@
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
-                        "width":4256,
-                        "height":2832,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
@@ -112,9 +108,7 @@
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
-                        "width":4256,
-                        "height":2832,
-                        "service":{
+                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3",
                            "profile":[
@@ -147,8 +141,6 @@
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
-                        "width":4256,
-                        "height":2832,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4",
