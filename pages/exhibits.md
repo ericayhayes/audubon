@@ -4,9 +4,10 @@ title: Exhibits
 permalink: /exhibits/
 ---
 
-{% assign m1 = '/img/derivatives/iiif/birdsofamerica_manifest.json' | absolute_url %}
+{% assign m1 = '/img/derivatives/birdsofamerica_manifest.json' | absolute_url %}
 {% assign m2 = '/img/derivatives/iiif/obj18/manifest.json' | absolute_url %}
 {% include mirador_iiif.html m1=m1 m2=m2 %}
+
 
 <iiif-storyboard annotationlist="https://ericayhayes.github.io/annotate/annotations/obj4-list.json"></iiif-storyboard>
 
