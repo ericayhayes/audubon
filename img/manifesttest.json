@@ -26,17 +26,17 @@
          "canvases":[
             {
                "@type":"sc:Canvas",
-               "@id":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
+               "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/info.json",
                "width":4256,
                "height":2832,
                "label":"The Wild Turkey",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
                "images":[
                   {
-                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     
                      "@id":"http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
                      "@type":"oa:Annotation",
-                     "on":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
+                     "on":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/info.json",
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
@@ -63,16 +63,16 @@
             },
             {
                "@type":"sc:Canvas",
-               "@id":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
+               "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/info.json",
                "width":4256,
                "height":2832,
                "label":"Great-footed Hawk",
                "images":[
                   {
-                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     
                      "@id":"http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
                      "@type":"oa:Annotation",
-                     "on":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
+                     "on":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/info.json",
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
@@ -99,16 +99,16 @@
             },
             {
                "@type":"sc:Canvas",
-               "@id":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
+               "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/info.json",
                "width":4256,
                "height":2832,
                "label":"Mocking Bird",
                "images":[
                   {
-                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     
                      "@id":"http://7aba6978-874c-49c9-ae04-6c184bdb9bcc",
                      "@type":"oa:Annotation",
-                     "on":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
+                     "on":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/info.json",
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
@@ -135,15 +135,15 @@
             },
             {
                "@type":"sc:Canvas",
-               "@id":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
+               "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/info.json",
                "width":4256,
                "height":2832,
                "label":"Carolina Parrot",
                "images":[
                   {
-                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     
                      "@id":"http://ba5f705f-1250-4d86-95e5-803131568bb9",
-                     "on":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
+                     "on":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/info.json",
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
