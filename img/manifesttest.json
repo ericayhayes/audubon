@@ -1,165 +1,175 @@
 {
-    "@context":"http://iiif.io/api/presentation/2/context.json",
-    "@id":"https://ericayhayes.github.io/audubon/img/derivatives/birdsofamerica_manifest.json",
-    "@type":"sc:Manifest",
-    "label":"Selections from John James Audubon's Birds of America at the Lilly Library",
-    "related": {
-        "@id": "https://iucat.iu.edu/catalog/15708024", "format": "text/html", "label": "HTML page for the resource"
-    }
-    ,
-    "logo": {
-        "@id": "https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png"
-    }
-    ,
-    "attribution":Indiana University Libraries, Bloomington Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana",
-    "license":["https://libraries.indiana.edu/lilly-library/permissions-copyright"],
-    "description": [
-		{
-			"@value": "This manifest includes all 50 plates from the Selections from John James Audubon's Birds of America touchscreen exhibit at the Lilly Library",
-			"@language": "en"
-		}
-	],
-    "sequences":[ {
-        "canvases":[ {
-            "@type":"sc:Canvas",
-            "@id":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
-            "width":4256,
-            "height":2832,
-            "label":"The Wild Turkey",
-            "thumbnail": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
-            "images":[ {
-                "@context": "http://iiif.io/api/presentation/2/context.json",
-                "@id":"http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
-                "@type":"oa:Annotation",
-                "on":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
-                "motivation":"sc:painting",
-                "resource": {
-                    "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
-                    "width":4256,
-                    "height":2832,
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-                                        {
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-                    },
-                    "@type":"dctypes:Image"
-                }
-            }
-            ],
-        },
-        {
-            "@type":"sc:Canvas",
-            "@id":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
-            "width":4256,
-            "height":2832,
-            "label":"Great-footed Hawk",            
-            "images":[ {
-                "@context": "http://iiif.io/api/presentation/2/context.json",
-                "@id":"http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
-                "@type":"oa:Annotation",
-                "on":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
-                "motivation":"sc:painting",
-                "resource": {
-                    "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
-                    "width":4256,
-                    "height":2832,
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-										{
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-								},
-                    "@type":"dctypes:Image"
-                }
-            }
-            ],
-            
-        },
-        {
-            "@type":"sc:Canvas",
-            "@id":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
-            "width":4256,
-            "height":2832,
-            "label":"Mocking Bird",
-            "images":[ {
-                "@context": "http://iiif.io/api/presentation/2/context.json",
-				"@id": "http://7aba6978-874c-49c9-ae04-6c184bdb9bcc",
-                "@type":"oa:Annotation",
-                "on":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
-                "motivation":"sc:painting",
-                "resource": {
-                    "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
-                    "width":4256,
-                    "height":2832,
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-										{
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-								},
-                    "@type":"dctypes:Image"
-                }
-            }
-            ],
-        },
-        {
-            "@type":"sc:Canvas",
-            "@id":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
-            "width":4256,
-            "height":2832,
-            "label":"Carolina Parrot",
-            "images":[ {
-                "@context": "http://iiif.io/api/presentation/2/context.json",
-				"@id": "http://ba5f705f-1250-4d86-95e5-803131568bb9",
-                "on":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
-                "motivation":"sc:painting",
-                "resource": {
-                    "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
-                    "width":4256,
-                    "height":2832,
-                    "service": {
-                        "@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-										{
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-								},
+   "@context":"http://iiif.io/api/presentation/2/context.json",
+   "@id":"https://ericayhayes.github.io/audubon/img/derivatives/birdsofamerica_manifest.json",
+   "@type":"sc:Manifest",
+   "label":"Selections from John James Audubon's Birds of America at the Lilly Library",
+   "related":{
+      "@id":"https://iucat.iu.edu/catalog/15708024",
+      "format":"text/html",
+      "label":"HTML page for the resource"
+   },
+   "logo":{
+      "@id":"https://upload.wikimedia.org/wikipedia/commons/e/e8/International_Image_Interoperability_Framework_logo.png"
+   },
+   "attribution":"Courtesy The Lilly Library Indiana University Bloomington Indiana ",
+   "license":[
+      "https://libraries.indiana.edu/lilly-library/permissions-copyright"
+   ],
+   "description":[
+      {
+         "@value":"This manifest includes all 50 plates from the Selections from John James Audubon's Birds of America touchscreen exhibit at the Lilly Library",
+         "@language":"en"
+      }
+   ],
+   "sequences":[
+      {
+         "canvases":[
+            {
+               "@type":"sc:Canvas",
+               "@id":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
+               "width":4256,
+               "height":2832,
+               "label":"The Wild Turkey",
+               "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+               "images":[
+                  {
+                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     "@id":"http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
+                     "@type":"oa:Annotation",
+                     "on":"http://a6109aa8-ebaf-4a31-b20a-940dd0aaf316",
+                     "motivation":"sc:painting",
+                     "resource":{
+                        "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
+                        "width":4256,
+                        "height":2832,
+                        "service":{
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
+                           "profile":[
+                              "http://iiif.io/api/image/2/level0.json",
+                              {
+                                 "supports":[
+                                    "cors",
+                                    "sizeByWhListed",
+                                    "baseUriRedirect"
+                                 ]
+                              }
+                           ]
+                        },
                         "@type":"dctypes:Image"
-                }
+                     }
+                  }
+               ]
+            },
+            {
+               "@type":"sc:Canvas",
+               "@id":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
+               "width":4256,
+               "height":2832,
+               "label":"Great-footed Hawk",
+               "images":[
+                  {
+                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     "@id":"http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
+                     "@type":"oa:Annotation",
+                     "on":"http://8bc81653-a4b4-4d4c-8cce-555143c80229",
+                     "motivation":"sc:painting",
+                     "resource":{
+                        "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
+                        "width":4256,
+                        "height":2832,
+                        "service":{
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
+                           "profile":[
+                              "http://iiif.io/api/image/2/level0.json",
+                              {
+                                 "supports":[
+                                    "cors",
+                                    "sizeByWhListed",
+                                    "baseUriRedirect"
+                                 ]
+                              }
+                           ]
+                        },
+                        "@type":"dctypes:Image"
+                     }
+                  }
+               ]
+            },
+            {
+               "@type":"sc:Canvas",
+               "@id":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
+               "width":4256,
+               "height":2832,
+               "label":"Mocking Bird",
+               "images":[
+                  {
+                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     "@id":"http://7aba6978-874c-49c9-ae04-6c184bdb9bcc",
+                     "@type":"oa:Annotation",
+                     "on":"http://58dd0c06-c688-4178-bedd-3ba5665310eb",
+                     "motivation":"sc:painting",
+                     "resource":{
+                        "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
+                        "width":4256,
+                        "height":2832,
+                        "service":{
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3",
+                           "profile":[
+                              "http://iiif.io/api/image/2/level0.json",
+                              {
+                                 "supports":[
+                                    "cors",
+                                    "sizeByWhListed",
+                                    "baseUriRedirect"
+                                 ]
+                              }
+                           ]
+                        },
+                        "@type":"dctypes:Image"
+                     }
+                  }
+               ]
+            },
+            {
+               "@type":"sc:Canvas",
+               "@id":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
+               "width":4256,
+               "height":2832,
+               "label":"Carolina Parrot",
+               "images":[
+                  {
+                     "@context":"http://iiif.io/api/presentation/2/context.json",
+                     "@id":"http://ba5f705f-1250-4d86-95e5-803131568bb9",
+                     "on":"http://24ab2467-37b5-4fd0-8910-4a66ebfc5a6f",
+                     "motivation":"sc:painting",
+                     "resource":{
+                        "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
+                        "width":4256,
+                        "height":2832,
+                        "service":{
+                           "@context":"http://iiif.io/api/image/2/context.json",
+                           "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4",
+                           "profile":[
+                              "http://iiif.io/api/image/2/level0.json",
+                              {
+                                 "supports":[
+                                    "cors",
+                                    "sizeByWhListed",
+                                    "baseUriRedirect"
+                                 ]
+                              }
+                           ]
+                        },
+                        "@type":"dctypes:Image"
+                     }
+                  }
+               ]
             }
-            ],
-        },
-
+         ]
+      }
+    ]
 }
+    
