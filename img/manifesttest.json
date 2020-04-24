@@ -46,7 +46,7 @@
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
                            "profile":[
-                              "http://iiif.io/api/image/2/level0.json",
+                              "http://iiif.io/api/image/2/level2.json",
                               {
                                  "supports":[
                                     "cors",
@@ -83,7 +83,7 @@
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2",
                            "profile":[
-                              "http://iiif.io/api/image/2/level0.json",
+                              "http://iiif.io/api/image/2/level2.json",
                               {
                                  "supports":[
                                     "cors",
@@ -120,7 +120,7 @@
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3",
                            "profile":[
-                              "http://iiif.io/api/image/2/level0.json",
+                              "http://iiif.io/api/image/2/level2.json",
                               {
                                  "supports":[
                                     "cors",
@@ -156,7 +156,7 @@
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4",
                            "profile":[
-                              "http://iiif.io/api/image/2/level0.json",
+                              "http://iiif.io/api/image/2/level2.json",
                               {
                                  "supports":[
                                     "cors",
