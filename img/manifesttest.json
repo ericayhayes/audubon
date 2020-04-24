@@ -32,6 +32,7 @@
                "label":"The Wild Turkey",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
                "viewingDirection": "left-to-right",
+               "viewingHint":"individuals",
                "images":[
                   {
 
@@ -68,6 +69,7 @@
                "label":"Great-footed Hawk",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
                "viewingDirection": "left-to-right",
+               "viewingHint":"individuals",
                "images":[
                   {
 
@@ -104,6 +106,7 @@
                "label":"Mocking Bird",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
                "viewingDirection": "left-to-right",
+               "viewingHint":"individuals",
                "images":[
                   {
 
@@ -140,6 +143,7 @@
                "label":"Carolina Parrot",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
                "viewingDirection": "left-to-right",
+               "viewingHint":"individuals",
                "images":[
                   {
 
