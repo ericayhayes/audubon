@@ -27,8 +27,8 @@
             {
                "@type":"sc:Canvas",
                "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/info.json",
-               "width":4256,
                "height":2832,
+               "width":4256,
                "label":"The Wild Turkey",
                "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
                "images":[
@@ -40,8 +40,8 @@
                      "motivation":"sc:painting",
                      "resource":{
                         "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
-                        "width":4256,
                         "height":2832,
+                         "width":4256,
                         "service":{
                            "@context":"http://iiif.io/api/image/2/context.json",
                            "@id":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj1",
