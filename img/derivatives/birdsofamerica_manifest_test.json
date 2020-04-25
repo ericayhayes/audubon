@@ -1739,7 +1739,7 @@
 					]
 				},
                 {
-					"@id": "http://f0c46ea6-f09e-44dd-a519-209a3343edfa",
+					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json",
 					"@type": "sc:Canvas",
 					"label": "Empty canvas",
 					"height": 2832,
@@ -1771,8 +1771,9 @@
 								"height": 2832,
 								"width": 4256
 							},
-							"on": "http://f0c46ea6-f09e-44dd-a519-209a3343edfa"
+							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json"
 						}
+                    ]
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48/info.json",
