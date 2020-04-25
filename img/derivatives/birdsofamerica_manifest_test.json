@@ -1747,7 +1747,7 @@
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json",
+							"@id": "http://6b50cb68-a34d-4189-a7e4-88a6113b8f77",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
