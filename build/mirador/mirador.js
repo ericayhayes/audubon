@@ -13781,7 +13781,7 @@ $.Viewer = function( options ) {
         style.left      = "0px";
         style.top       = "0px";
         style.textAlign = "left";
-        style.background-color = "black";  // needed to protect against
+        // needed to protect against
     }( this.container.style ));
 
     this.container.insertBefore( this.canvas, this.container.firstChild );
