@@ -256,6 +256,11 @@ layout: none
       "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/obj42/manifest.json",
       "@type": "sc:Manifest",
       "label": "Goosander or Common Merganser"
+    },
+    {
+      "@id": "{{ '' | absolute_url }}/img/derivatives/fifty_birdsofamerica_manifest.json",
+      "@type": "sc:Manifest",
+      "label": "Selections from John James Audubon's Birds of America at the Lilly Library ",
     }
   ]
 }
