@@ -1741,7 +1741,7 @@
                 {
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json",
 					"@type": "sc:Canvas",
-					"label": "Great American Egret",
+					"label": "Empty canvas",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1756,7 +1756,7 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48",
+									"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47",
 									"profile": [
 										"http://iiif.io/api/image/2/level0.json",
 										{
@@ -1773,7 +1773,6 @@
 							},
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json"
 						}
-					]
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48/info.json",
