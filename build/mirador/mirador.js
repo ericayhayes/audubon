@@ -11,7 +11,7 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
     "use strict";
     function r(r) {
         var n = t.console;
-        o[r] || (o[r] = !0, e.migrateWarnings.push(r), n && n.warn && !e.migrateMute && (n.warn("JQMIGRATE: " + r), 
+        o[r] || (o[r] = !0, e.migrateWarnings.push(r), n && n.warn && !e.migrateMute && (n.warn("JQMIGRATE: " + r),
         e.migrateTrace && n.trace && n.trace()));
     }
     function n(e, t, n, a) {
@@ -33,8 +33,8 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
     }
     e.migrateVersion = "3.0.1", function() {
         var r = /^[12]\./;
-        t.console && t.console.log && (e && !r.test(e.fn.jquery) || t.console.log("JQMIGRATE: jQuery 3.0.0+ REQUIRED"), 
-        e.migrateWarnings && t.console.log("JQMIGRATE: Migrate plugin loaded multiple times"), 
+        t.console && t.console.log && (e && !r.test(e.fn.jquery) || t.console.log("JQMIGRATE: jQuery 3.0.0+ REQUIRED"),
+        e.migrateWarnings && t.console.log("JQMIGRATE: Migrate plugin loaded multiple times"),
         t.console.log("JQMIGRATE: Migrate is installed" + (e.migrateMute ? "" : " with logging active") + ", version " + e.migrateVersion));
     }();
     var o = {};
@@ -44,7 +44,7 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
     var i = e.fn.init, s = e.isNumeric, u = e.find, c = /\[(\s*[-\w]+\s*)([~|^$*]?=)\s*([-\w#]*?#[-\w#]*)\s*\]/, l = /\[(\s*[-\w]+\s*)([~|^$*]?=)\s*([-\w#]*?#[-\w#]*)\s*\]/g;
     e.fn.init = function(e) {
         var t = Array.prototype.slice.call(arguments);
-        return "string" == typeof e && "#" === e && (r("jQuery( '#' ) is not a valid selector"), 
+        return "string" == typeof e && "#" === e && (r("jQuery( '#' ) is not a valid selector"),
         t[0] = []), i.apply(this, t);
     }, e.fn.init.prototype = e.fn, e.find = function(e) {
         var n = Array.prototype.slice.call(arguments);
@@ -55,7 +55,7 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
                 return "[" + t + r + '"' + n + '"]';
             });
             try {
-                t.document.querySelector(e), r("Attribute selector with '#' must be quoted: " + n[0]), 
+                t.document.querySelector(e), r("Attribute selector with '#' must be quoted: " + n[0]),
                 n[0] = e;
             } catch (e) {
                 r("Attribute selector with '#' was not fixed: " + n[0]);
@@ -66,7 +66,7 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
     var d;
     for (d in u) Object.prototype.hasOwnProperty.call(u, d) && (e.find[d] = u[d]);
     e.fn.size = function() {
-        return r("jQuery.fn.size() is deprecated and removed; use the .length property"), 
+        return r("jQuery.fn.size() is deprecated and removed; use the .length property"),
         this.length;
     }, e.parseJSON = function() {
         return r("jQuery.parseJSON is deprecated; use JSON.parse"), JSON.parse.apply(null, arguments);
@@ -75,27 +75,27 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
             var r = t && t.toString();
             return !e.isArray(t) && r - parseFloat(r) + 1 >= 0;
         }(t);
-        return n !== a && r("jQuery.isNumeric() should not be called on constructed objects"), 
+        return n !== a && r("jQuery.isNumeric() should not be called on constructed objects"),
         a;
-    }, a(e, "holdReady", e.holdReady, "jQuery.holdReady is deprecated"), a(e, "unique", e.uniqueSort, "jQuery.unique is deprecated; use jQuery.uniqueSort"), 
-    n(e.expr, "filters", e.expr.pseudos, "jQuery.expr.filters is deprecated; use jQuery.expr.pseudos"), 
+    }, a(e, "holdReady", e.holdReady, "jQuery.holdReady is deprecated"), a(e, "unique", e.uniqueSort, "jQuery.unique is deprecated; use jQuery.uniqueSort"),
+    n(e.expr, "filters", e.expr.pseudos, "jQuery.expr.filters is deprecated; use jQuery.expr.pseudos"),
     n(e.expr, ":", e.expr.pseudos, "jQuery.expr[':'] is deprecated; use jQuery.expr.pseudos");
     var p = e.ajax;
     e.ajax = function() {
         var e = p.apply(this, arguments);
-        return e.promise && (a(e, "success", e.done, "jQXHR.success is deprecated and removed"), 
-        a(e, "error", e.fail, "jQXHR.error is deprecated and removed"), a(e, "complete", e.always, "jQXHR.complete is deprecated and removed")), 
+        return e.promise && (a(e, "success", e.done, "jQXHR.success is deprecated and removed"),
+        a(e, "error", e.fail, "jQXHR.error is deprecated and removed"), a(e, "complete", e.always, "jQXHR.complete is deprecated and removed")),
         e;
     };
     var f = e.fn.removeAttr, y = e.fn.toggleClass, m = /\S+/g;
     e.fn.removeAttr = function(t) {
         var n = this;
         return e.each(t.match(m), function(t, a) {
-            e.expr.match.bool.test(a) && (r("jQuery.fn.removeAttr no longer sets boolean properties: " + a), 
+            e.expr.match.bool.test(a) && (r("jQuery.fn.removeAttr no longer sets boolean properties: " + a),
             n.prop(a, !1));
         }), f.apply(this, arguments);
     }, e.fn.toggleClass = function(t) {
-        return void 0 !== t && "boolean" != typeof t ? y.apply(this, arguments) : (r("jQuery.fn.toggleClass( boolean ) is deprecated"), 
+        return void 0 !== t && "boolean" != typeof t ? y.apply(this, arguments) : (r("jQuery.fn.toggleClass( boolean ) is deprecated"),
         this.each(function() {
             var r = this.getAttribute && this.getAttribute("class") || "";
             r && e.data(this, "__className__", r), this.setAttribute && this.setAttribute("class", r || !1 === t ? "" : e.data(this, "__className__") || "");
@@ -122,36 +122,36 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
         if (n && "object" == typeof n && 2 === arguments.length) {
             o = e.hasData(t) && g.call(this, t);
             var i = {};
-            for (var s in n) s !== e.camelCase(s) ? (r("jQuery.data() always sets/gets camelCased names: " + s), 
+            for (var s in n) s !== e.camelCase(s) ? (r("jQuery.data() always sets/gets camelCased names: " + s),
             o[s] = n[s]) : i[s] = n[s];
             return g.call(this, t, i), n;
         }
-        return n && "string" == typeof n && n !== e.camelCase(n) && (o = e.hasData(t) && g.call(this, t)) && n in o ? (r("jQuery.data() always sets/gets camelCased names: " + n), 
+        return n && "string" == typeof n && n !== e.camelCase(n) && (o = e.hasData(t) && g.call(this, t)) && n in o ? (r("jQuery.data() always sets/gets camelCased names: " + n),
         arguments.length > 2 && (o[n] = a), o[n]) : g.apply(this, arguments);
     };
     var v = e.Tween.prototype.run, j = function(e) {
         return e;
     };
     e.Tween.prototype.run = function() {
-        e.easing[this.easing].length > 1 && (r("'jQuery.easing." + this.easing.toString() + "' should use only one argument"), 
+        e.easing[this.easing].length > 1 && (r("'jQuery.easing." + this.easing.toString() + "' should use only one argument"),
         e.easing[this.easing] = j), v.apply(this, arguments);
     }, e.fx.interval = e.fx.interval || 13, t.requestAnimationFrame && n(e.fx, "interval", e.fx.interval, "jQuery.fx.interval is deprecated");
     var Q = e.fn.load, b = e.event.add, w = e.event.fix;
-    e.event.props = [], e.event.fixHooks = {}, n(e.event.props, "concat", e.event.props.concat, "jQuery.event.props.concat() is deprecated and removed"), 
+    e.event.props = [], e.event.fixHooks = {}, n(e.event.props, "concat", e.event.props.concat, "jQuery.event.props.concat() is deprecated and removed"),
     e.event.fix = function(t) {
         var n, a = t.type, o = this.fixHooks[a], i = e.event.props;
         if (i.length) for (r("jQuery.event.props are deprecated and removed: " + i.join()); i.length; ) e.event.addProp(i.pop());
-        if (o && !o._migrated_ && (o._migrated_ = !0, r("jQuery.event.fixHooks are deprecated and removed: " + a), 
+        if (o && !o._migrated_ && (o._migrated_ = !0, r("jQuery.event.fixHooks are deprecated and removed: " + a),
         (i = o.props) && i.length)) for (;i.length; ) e.event.addProp(i.pop());
         return n = w.call(this, t), o && o.filter ? o.filter(n, t) : n;
     }, e.event.add = function(e, n) {
-        return e === t && "load" === n && "complete" === t.document.readyState && r("jQuery(window).on('load'...) called after load event occurred"), 
+        return e === t && "load" === n && "complete" === t.document.readyState && r("jQuery(window).on('load'...) called after load event occurred"),
         b.apply(this, arguments);
     }, e.each([ "load", "unload", "error" ], function(t, n) {
         e.fn[n] = function() {
             var e = Array.prototype.slice.call(arguments, 0);
-            return "load" === n && "string" == typeof e[0] ? Q.apply(this, e) : (r("jQuery.fn." + n + "() is deprecated"), 
-            e.splice(0, 0, n), arguments.length ? this.on.apply(this, e) : (this.triggerHandler.apply(this, e), 
+            return "load" === n && "string" == typeof e[0] ? Q.apply(this, e) : (r("jQuery.fn." + n + "() is deprecated"),
+            e.splice(0, 0, n), arguments.length ? this.on.apply(this, e) : (this.triggerHandler.apply(this, e),
             this));
         };
     }), e.each("blur focus focusin focusout resize scroll click dblclick mousedown mouseup mousemove mouseover mouseout mouseenter mouseleave change select submit keydown keypress keyup contextmenu".split(" "), function(t, n) {
@@ -187,18 +187,18 @@ void 0 === jQuery.migrateMute && (jQuery.migrateMute = !0), function(e) {
             top: 0,
             left: 0
         };
-        return a && a.nodeType ? (n = (a.ownerDocument || t.document).documentElement, e.contains(n, a) ? x.apply(this, arguments) : (r("jQuery.fn.offset() requires an element connected to a document"), 
+        return a && a.nodeType ? (n = (a.ownerDocument || t.document).documentElement, e.contains(n, a) ? x.apply(this, arguments) : (r("jQuery.fn.offset() requires an element connected to a document"),
         o)) : (r("jQuery.fn.offset() requires a valid DOM element"), o);
     };
     var k = e.param;
     e.param = function(t, n) {
         var a = e.ajaxSettings && e.ajaxSettings.traditional;
-        return void 0 === n && a && (r("jQuery.param() no longer uses jQuery.ajaxSettings.traditional"), 
+        return void 0 === n && a && (r("jQuery.param() no longer uses jQuery.ajaxSettings.traditional"),
         n = a), k.call(this, t, n);
     };
     var A = e.fn.andSelf || e.fn.addBack;
     e.fn.andSelf = function() {
-        return r("jQuery.fn.andSelf() is deprecated and removed, use jQuery.fn.addBack()"), 
+        return r("jQuery.fn.andSelf() is deprecated and removed, use jQuery.fn.addBack()"),
         A.apply(this, arguments);
     };
     var S = e.Deferred, q = [ [ "resolve", "done", e.Callbacks("once memory"), e.Callbacks("once memory"), "resolved" ], [ "reject", "fail", e.Callbacks("once memory"), e.Callbacks("once memory"), "rejected" ], [ "notify", "progress", e.Callbacks("memory"), e.Callbacks("memory") ] ];
@@ -13780,7 +13780,8 @@ $.Viewer = function( options ) {
         style.overflow  = "hidden";
         style.left      = "0px";
         style.top       = "0px";
-        style.textAlign = "left";  // needed to protect against
+        style.textAlign = "left";
+        style.background: black;  // needed to protect against
     }( this.container.style ));
 
     this.container.insertBefore( this.canvas, this.container.firstChild );
@@ -29171,7 +29172,7 @@ var Isfahan = function(configObject) {
     divisor;
     // if not already set, divide equally.
     group.forEach(function(item) {
-      if (!item[dimension] === undefined) { 
+      if (!item[dimension] === undefined) {
         old = true;
       }
     });
@@ -29183,7 +29184,7 @@ var Isfahan = function(configObject) {
         return previousValue[dimension] + currentValue[dimension];
       });
       console.log('sum: ' + sum);
-      
+
       divisor = (node[dimension]/sum)*total;
       console.log("divisor: "+divisor);
       return divisor;
@@ -29215,7 +29216,7 @@ var Isfahan = function(configObject) {
     });
 
     return nodes;
-  } 
+  }
 
   isfahan.size = function(x) {
     if (!arguments.length) return containerSize;
@@ -29272,7 +29273,7 @@ var Isfahan = function(configObject) {
     if (dy < 0) { y += dy / 2; dy = 0; }
     return {x: x, y: y, dx: dx, dy: dy};
   }
-  
+
   function merge(target, source) {
 
     /* Merges two (or more) objects,
@@ -34029,7 +34030,7 @@ return /******/ (function(modules) { // webpackBootstrap
       'options': {
       }
     },
-    
+
     'sharingEndpoint': {
       'url': '',
       'storeId': 123,
@@ -34344,7 +34345,7 @@ return /******/ (function(modules) { // webpackBootstrap
         });
       }
     },
-    
+
     addCollectionFromUrl: function(url, location, content) {
       var _this = this,
         collection;
@@ -35013,7 +35014,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
         var _this = this;
         _this.init();
-        
+
     };
 
     $.CollectionTreeManifestsPanel.prototype = {
@@ -35024,7 +35025,7 @@ return /******/ (function(modules) { // webpackBootstrap
                 showURLBox : this.state.getStateProperty('showAddFromURLBox')
             })).appendTo(this.appendTo);
             this.manifestListElement = this.element.find('ul');
-            
+
             // Populate the preloads folder with manifests in the configuration
             jQuery.each(this.state.currentConfig.data, function(_, v) {
               if (v.hasOwnProperty('manifestUri')) {
@@ -35046,7 +35047,7 @@ return /******/ (function(modules) { // webpackBootstrap
                       selected: true
                     },
                     children: []
-                  }, 
+                  },
                   {
                     id: 'user',
                     text: i18next.t('myManifests'),
@@ -35081,7 +35082,7 @@ return /******/ (function(modules) { // webpackBootstrap
                 }
               });
             });
-            
+
             //this code gives us the max width of the results area, used to determine how many preview images to show
             //cloning the element and adjusting the display and visibility means it won't break the normal flow
             var clone = this.element.clone().css("visibility","hidden").css("display", "block").appendTo(this.appendTo);
@@ -35090,7 +35091,7 @@ return /******/ (function(modules) { // webpackBootstrap
             this.paddingListElement = this.controlsHeight;
             this.manifestListElement.css("padding-bottom", this.paddingListElement);
             clone.remove();
-            
+
             // this.manifestLoadStatusIndicator = new $.ManifestLoadStatusIndicator({
             //   manifests: this.parent.manifests,
             //   appendTo: this.element.find('.member-select-results')
@@ -35112,17 +35113,17 @@ return /******/ (function(modules) { // webpackBootstrap
           _this.eventEmitter.subscribe('manifestReceived', function(event, newManifest) {
             _this.onManifestReceived(event, newManifest);
           });
-          
+
           // When a collection is received
           _this.eventEmitter.subscribe('collectionReceived', function(event, newCollection, parentUri, parentNodeId) {
             _this.onCollectionReceived(event, newCollection, parentUri, parentNodeId);
           });
-          
+
           // When a collection failed to load
           _this.eventEmitter.subscribe('collectionNotReceived', function(event, parentUri, parentNodeId) {
             _this.onCollectionNotReceived(event, parentUri, parentNodeId);
           });
-          
+
           // When Mirador gets an explicit request to load a manifest from a URL
           _this.eventEmitter.subscribe('ADD_MANIFEST_FROM_URL', function(event, url) {
             // Add it if it has not been loaded before
@@ -35133,12 +35134,12 @@ return /******/ (function(modules) { // webpackBootstrap
             _this.treeElement.jstree('deselect_all');
             _this.treeElement.jstree('select_node', 'user');
           });
-          
+
           // When Mirador gets an explicit request to load a collection from a URL
           _this.eventEmitter.subscribe('ADD_COLLECTION_FROM_URL', function(event, url, source) {
             _this.addCollectionFromUrl(url, null, true);
           });
-          
+
           // When Mirador gets a request to load an object (manifest or collection) from a URL (e.g. the "Add object from URL" form)
           _this.eventEmitter.subscribe('ADD_OBJECT_FROM_URL', function(event, url, source) {
             _this.addObjectFromUrl(url, source, true);
@@ -35171,7 +35172,7 @@ return /******/ (function(modules) { // webpackBootstrap
               _this.resizePanel();
             }, 50, true));
         },
-        
+
         hide: function() {
             var _this = this;
             jQuery(this.element).hide({effect: "fade", duration: 160, easing: "easeOutCubic"});
@@ -35181,24 +35182,24 @@ return /******/ (function(modules) { // webpackBootstrap
             var _this = this;
             jQuery(this.element).show({effect: "fade", duration: 160, easing: "easeInCubic"});
         },
-        
+
         // Send explicit request for adding a manifest from a URL
         addManifestUrl: function(url) {
           var _this = this;
           _this.eventEmitter.publish('ADD_MANIFEST_FROM_URL', [url, "(Added from URL)"]);
         },
-        
+
         // Send explicit request for adding a manifest or collection from a URL
         addObjectUrl: function(url) {
           var _this = this;
           _this.eventEmitter.publish('ADD_OBJECT_FROM_URL', [url, "(Added from URL)"]);
         },
-        
+
         togglePanel: function(event) {
           var _this = this;
           _this.eventEmitter.publish('TOGGLE_LOAD_WINDOW');
         },
-        
+
         filterManifests: function(value) {
           var _this = this;
           if (value.length > 0) {
@@ -35217,7 +35218,7 @@ return /******/ (function(modules) { // webpackBootstrap
           clone.remove();
           _this.eventEmitter.publish("manifestPanelWidthChanged", _this.resultsWidth);
         },
-        
+
         onPanelVisible: function(_, stateValue) {
           var _this = this;
           if (stateValue) { _this.show(); return; }
@@ -35229,9 +35230,9 @@ return /******/ (function(modules) { // webpackBootstrap
           var _this = this;
           // Show a manifest list item only if the currently selected "folder" expects it
           if (_this.expectedThings.indexOf(newManifest.uri) != -1) {
-            _this.manifestListItems.push(new $.ManifestListItem({ 
-              manifest: newManifest, 
-              resultsWidth: _this.resultsWidth, 
+            _this.manifestListItems.push(new $.ManifestListItem({
+              manifest: newManifest,
+              resultsWidth: _this.resultsWidth,
               state: _this.state,
               eventEmitter: _this.eventEmitter,
               forcedIndex: _this.expectedThings.indexOf(newManifest.uri),
@@ -35239,7 +35240,7 @@ return /******/ (function(modules) { // webpackBootstrap
             _this.element.find('#manifest-search').keyup();
           }
         },
-        
+
         // Handler for when collection data is loaded for the first time
         onCollectionReceived: function(event, newCollection, uri, parentNodeId) {
           // If the tree isn't ready, hold it and move on
@@ -35254,7 +35255,7 @@ return /******/ (function(modules) { // webpackBootstrap
             this.addCollectionNode(parentNodeId, newCollection);
           }
         },
-        
+
         // Handler for when collection data is loaded for the first time and failed
         onCollectionNotReceived: function(event, uri, parentNodeId) {
           // If the tree isn't ready, hold it and move on
@@ -35269,13 +35270,13 @@ return /******/ (function(modules) { // webpackBootstrap
             _this.treeElement.jstree('disable_node', nodeId); // Don't let the user click it
           });
         },
-        
+
         // Clean out the list of manifest items on the right side
         clearManifestItems: function() {
           this.manifestListItems = [];
           this.manifestListElement.html('');
         },
-        
+
         // Set up 2-way correspondence between node IDs and URIs
         registerNodeIdUriPair: function(nodeId, uri) {
           // Map node ID to URI
@@ -35286,7 +35287,7 @@ return /******/ (function(modules) { // webpackBootstrap
             this.uriToNodeId[uri] = [nodeId]; // New URI => new node ID
           }
         },
-        
+
         // Handler for selecting a new node
         changeNode: function(node) {
           var _this = this;
@@ -35303,9 +35304,9 @@ return /******/ (function(modules) { // webpackBootstrap
             _this.addManifestFromUrl(expectedThing);
           });
           this.element.find('#manifest-search').keyup();
-          
+
         },
-        
+
         // Handler for expanding a node (> clicked)
         expandNode: function(node) {
           var _this = this;
@@ -35314,7 +35315,7 @@ return /******/ (function(modules) { // webpackBootstrap
             _this.updateCollectionFromUrl(uri, node.id);
           });
         },
-        
+
         // Helper for loading a manifest or collection from a URL
         addObjectFromUrl: function(url, source) {
           var _this = this,
@@ -35358,7 +35359,7 @@ return /******/ (function(modules) { // webpackBootstrap
             });
           }
         },
-        
+
         // Helper for loading a manifest from a URL
         addManifestFromUrl: function(url) {
           var _this = this,
@@ -35367,9 +35368,9 @@ return /******/ (function(modules) { // webpackBootstrap
           if (_this.state.getStateProperty('manifests')[url]) {
             manifest = _this.state.getStateProperty('manifests')[url];
             if (manifest.jsonLd) {
-              _this.manifestListItems.push(new $.ManifestListItem({ 
-                manifest: manifest, 
-                resultsWidth: _this.resultsWidth, 
+              _this.manifestListItems.push(new $.ManifestListItem({
+                manifest: manifest,
+                resultsWidth: _this.resultsWidth,
                 state: _this.state,
                 eventEmitter: _this.eventEmitter,
                 forcedIndex: _this.expectedThings.indexOf(url),
@@ -35385,7 +35386,7 @@ return /******/ (function(modules) { // webpackBootstrap
             });
           }
         },
-        
+
         // Helper for loading a manifest from a URL as a child node of some other node (null = top level)
         // Optionally, jump to that new child node if jumpToIt is specified as true
         addCollectionFromUrl: function(url, nodeId, jumpToIt) {
@@ -35430,7 +35431,7 @@ return /******/ (function(modules) { // webpackBootstrap
             });
           }
         },
-        
+
         // Helper for updating a subnode of nodeId corresponding to the specified URL
         updateCollectionFromUrl: function(url, nodeId) {
           var _this = this,
@@ -35454,7 +35455,7 @@ return /******/ (function(modules) { // webpackBootstrap
             });
           }
         },
-        
+
         // Helper for loading a Collection object as a child of nodeId
         // Optionally, skip seeding subnodes under this collection if unexpanded is specified; this marks it as "still loading"
         addCollectionNode: function(nodeId, collection, unexpanded) {
@@ -35499,7 +35500,7 @@ return /******/ (function(modules) { // webpackBootstrap
           // Return newly created node ID for future reference
           return newNodeId;
         },
-        
+
         // Helper for updating a subnode of nodeId corresponding to the specified URL
         updateCollectionNode: function(nodeId, collection) {
           var _this = this,
@@ -35527,7 +35528,7 @@ return /******/ (function(modules) { // webpackBootstrap
               _this.treeElement.jstree('enable_node', n);
             }
           });
-          
+
         },
 
         template: $.Handlebars.compile([
@@ -35648,7 +35649,7 @@ return /******/ (function(modules) { // webpackBootstrap
         bindEvents: function() {
             var _this = this;
             //change 'change-layout' to mouseover events rather than click?
-            this.element.find('.change-layout').on('click', function() { 
+            this.element.find('.change-layout').on('click', function() {
               _this.eventEmitter.publish('TOGGLE_WORKSPACE_PANEL');
               //remove active class from other buttons
               _this.element.find('.bookmark-workspace').removeClass('active');
@@ -35659,7 +35660,7 @@ return /******/ (function(modules) { // webpackBootstrap
               }
             });
 
-            this.element.find('.bookmark-workspace').on('click', function() { 
+            this.element.find('.bookmark-workspace').on('click', function() {
               _this.eventEmitter.publish('TOGGLE_BOOKMARK_PANEL');
               //remove active class from other buttons
               _this.element.find('.change-layout').removeClass('active');
@@ -36131,7 +36132,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
         var _this = this;
         _this.init();
-        
+
     };
 
     $.ManifestsPanel.prototype = {
@@ -36141,7 +36142,7 @@ return /******/ (function(modules) { // webpackBootstrap
                 showURLBox : this.state.getStateProperty('showAddFromURLBox')
             })).appendTo(this.appendTo);
             this.manifestListElement = this.element.find('ul');
-            
+
             //this code gives us the max width of the results area, used to determine how many preview images to show
             //cloning the element and adjusting the display and visibility means it won't break the normal flow
             var clone = this.element.clone().css("visibility","hidden").css("display", "block").appendTo(this.appendTo);
@@ -36150,7 +36151,7 @@ return /******/ (function(modules) { // webpackBootstrap
             this.paddingListElement = this.controlsHeight;
             this.manifestListElement.css("padding-bottom", this.paddingListElement);
             clone.remove();
-            
+
             // this.manifestLoadStatusIndicator = new $.ManifestLoadStatusIndicator({
             //   manifests: this.parent.manifests,
             //   appendTo: this.element.find('.select-results')
@@ -36170,7 +36171,7 @@ return /******/ (function(modules) { // webpackBootstrap
           _this.eventEmitter.subscribe('manifestReceived', function(event, newManifest) {
             _this.onManifestReceived(event, newManifest);
           });
-          
+
           _this.eventEmitter.subscribe('collectionReceived', function(event, newCollection) {
             _this.onCollectionReceived(event, newCollection);
           });
@@ -36202,7 +36203,7 @@ return /******/ (function(modules) { // webpackBootstrap
               _this.resizePanel();
             }, 50, true));
         },
-        
+
         hide: function() {
             var _this = this;
             jQuery(this.element).hide({effect: "fade", duration: 160, easing: "easeOutCubic"});
@@ -36212,17 +36213,17 @@ return /******/ (function(modules) { // webpackBootstrap
             var _this = this;
             jQuery(this.element).show({effect: "fade", duration: 160, easing: "easeInCubic"});
         },
-        
+
         addManifestUrl: function(url) {
           var _this = this;
           _this.eventEmitter.publish('ADD_MANIFEST_FROM_URL', [url, "(Added from URL)"]);
         },
-        
+
         togglePanel: function(event) {
           var _this = this;
           _this.eventEmitter.publish('TOGGLE_LOAD_WINDOW');
         },
-        
+
         filterManifests: function(value) {
           var _this = this;
           if (value.length > 0) {
@@ -36241,7 +36242,7 @@ return /******/ (function(modules) { // webpackBootstrap
           clone.remove();
           _this.eventEmitter.publish("manifestPanelWidthChanged", _this.resultsWidth);
         },
-        
+
         onPanelVisible: function(_, stateValue) {
           var _this = this;
           if (stateValue) { _this.show(); return; }
@@ -36250,15 +36251,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
         onManifestReceived: function(event, newManifest) {
           var _this = this;
-          _this.manifestListItems.push(new $.ManifestListItem({ 
-            manifest: newManifest, 
-            resultsWidth: _this.resultsWidth, 
+          _this.manifestListItems.push(new $.ManifestListItem({
+            manifest: newManifest,
+            resultsWidth: _this.resultsWidth,
             state: _this.state,
             eventEmitter: _this.eventEmitter,
             appendTo: _this.manifestListElement }));
           _this.element.find('#manifest-search').keyup();
         },
-        
+
         onCollectionReceived: function(event, newCollection) {
           var _this = this;
           jQuery.each(newCollection.getManifestUris(), function(_, v) {
@@ -36328,7 +36329,7 @@ return /******/ (function(modules) { // webpackBootstrap
       this.element = jQuery(this.template(templateData)).appendTo(this.appendTo);
       var backgroundImage = _this.state.getStateProperty('buildPath') + _this.state.getStateProperty('imagesPath') + 'debut_dark.png';
       this.element.css('background-image','url('+backgroundImage+')').css('background-repeat','repeat');
-      
+
       this.bindEvents();
       this.listenForActions();
     },
@@ -36352,7 +36353,7 @@ return /******/ (function(modules) { // webpackBootstrap
         var gridString = jQuery(this).data('gridstring');
         _this.hover(gridString);
       });
-      
+
       _this.element.find('.select-grid').on('mouseout', function() {
         _this.reset();
       });
@@ -36379,7 +36380,7 @@ return /******/ (function(modules) { // webpackBootstrap
       _this.element.find('.grid-instructions').hide();
       _this.element.find('.grid-text').text(gridString).show();
     },
-    
+
     reset: function() {
       var _this = this;
       _this.element.find('.grid-item').removeClass('hovered');
@@ -36479,7 +36480,7 @@ return /******/ (function(modules) { // webpackBootstrap
       });
       _this.request.resolve(collectionContent); // resolve immediately
     },
-    
+
     // Get the IIIF API version of this collection
     getVersion: function() {
       var versionMap = {
@@ -36490,7 +36491,7 @@ return /******/ (function(modules) { // webpackBootstrap
       };
       return versionMap[this.jsonLd['@context']];
     },
-    
+
     // Return a list of sub-manifest URIs contained in this collection
     getManifestUris: function() {
       // "manifests" key present
@@ -36510,7 +36511,7 @@ return /******/ (function(modules) { // webpackBootstrap
       // Neither present
       return [];
     },
-    
+
     // Return a list of sub-manifest JSON blocks contained in this collection
     getManifestBlocks: function() {
       // "manifests" key present
@@ -36528,7 +36529,7 @@ return /******/ (function(modules) { // webpackBootstrap
       // Neither present
       return [];
     },
-    
+
     // Return a list of sub-collection URIs contained in this collection
     getCollectionUris: function() {
       // "collections" key present
@@ -36548,7 +36549,7 @@ return /******/ (function(modules) { // webpackBootstrap
       // Neither present
       return [];
     },
-    
+
     // Return a list of sub-collection JSON blocks contained in this collection
     getCollectionBlocks: function() {
       // "collections" key present
@@ -37925,7 +37926,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
   $.Endpoint.prototype = {
     init: function() {
-      //whatever initialization your endpoint needs       
+      //whatever initialization your endpoint needs
     },
 
     //Search endpoint for all annotations with a given URI in options
@@ -37958,10 +37959,10 @@ return /******/ (function(modules) { // webpackBootstrap
         }
       });
     },
-    
+
     //Delete an annotation by endpoint identifier
     deleteAnnotation: function(annotationID, successCallback, errorCallback) {
-      var _this = this;        
+      var _this = this;
       jQuery.ajax({
         url: '',
         type: 'DELETE',
@@ -37980,12 +37981,12 @@ return /******/ (function(modules) { // webpackBootstrap
         }
       });
     },
-    
+
     //Update an annotation given the OA version
     update: function(oaAnnotation, successCallback, errorCallback) {
       var annotation = this.getAnnotationInEndpoint(oaAnnotation),
       _this = this;
-      
+
       jQuery.ajax({
         url: '',
         type: 'POST',
@@ -38010,7 +38011,7 @@ return /******/ (function(modules) { // webpackBootstrap
     //if successful, MUST return the OA rendering of the annotation
     create: function(oaAnnotation, successCallback, errorCallback) {
       var _this = this;
-      
+
       jQuery.ajax({
         url: '',
         type: 'POST',
@@ -38054,16 +38055,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
   $.LegacyOpenAnnotationStrategy = function(options) {
     jQuery.extend(this, {
-      
+
     }, options);
     this.init();
   };
-  
+
   $.LegacyOpenAnnotationStrategy.prototype = {
     init: function() {
-      
+
     },
-    
+
     // Check whether an annotation is supported under this formatting strategy
     isThisType: function(annotation) {
       if (annotation.on && typeof annotation.on === 'string') {
@@ -38071,7 +38072,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
       return false;
     },
-    
+
     // Build the selector into a bare annotation, given a Window and an OsdSvgOverlay
     buildAnnotation: function(options) {
       var oaAnno = options.annotation,
@@ -38081,7 +38082,7 @@ return /******/ (function(modules) { // webpackBootstrap
       oaAnno.on = win.canvasID + "#xywh=" + Math.round(bounds.x) + "," + Math.round(bounds.y) + "," + Math.round(bounds.width) + "," + Math.round(bounds.height);
       return oaAnno;
     },
-    
+
     // Parse the annotation into the OsdRegionDrawTool instance (only if its format is supported by this strategy)
     parseRegion: function(annotation, osdRegionDrawTool) {
       if (this.isThisType(annotation)) {
@@ -38089,7 +38090,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
     },
   };
-  
+
 }(Mirador));
 /*
  * All Endpoints need to have at least the following:
@@ -38322,16 +38323,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
   $.Mirador21Strategy = function(options) {
     jQuery.extend(this, {
-      
+
     }, options);
     this.init();
   };
-  
+
   $.Mirador21Strategy.prototype = {
     init: function() {
-      
+
     },
-    
+
     // Check whether an annotation is supported under this formatting strategy
     isThisType: function(annotation) {
       if (annotation.on && typeof annotation.on === 'object' &&
@@ -38342,7 +38343,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
       return false;
     },
-    
+
     // Build the selector into a bare annotation, given a Window and an OsdSvgOverlay
     buildAnnotation: function(options) {
       var oaAnno = options.annotation,
@@ -38363,7 +38364,7 @@ return /******/ (function(modules) { // webpackBootstrap
         };
       return oaAnno;
     },
-    
+
     // Parse the annotation into the OsdRegionDrawTool instance (only if its format is supported by this strategy)
     parseRegion: function(annotation, osdRegionDrawTool) {
       if (this.isThisType(annotation)) {
@@ -38371,7 +38372,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
     },
   };
-  
+
 }(Mirador));
 (function($) {
 
@@ -38453,16 +38454,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
   $.MiradorLegacyStrategy = function(options) {
     jQuery.extend(this, {
-      
+
     }, options);
     this.init();
   };
-  
+
   $.MiradorLegacyStrategy.prototype = {
     init: function() {
-      
+
     },
-    
+
     // Check whether an annotation is supported under this formatting strategy
     isThisType: function(annotation) {
       if (annotation.on && typeof annotation.on === 'object' &&
@@ -38473,7 +38474,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
       return false;
     },
-    
+
     // Build the selector into a bare annotation, given a Window and an OsdSvgOverlay
     buildAnnotation: function(options) {
       var oaAnno = options.annotation,
@@ -38490,7 +38491,7 @@ return /******/ (function(modules) { // webpackBootstrap
       };
       return oaAnno;
     },
-    
+
     // Parse the annotation into the OsdRegionDrawTool instance (only if its format is supported by this strategy)
     parseRegion: function(annotation, osdRegionDrawTool) {
       if (this.isThisType(annotation)) {
@@ -38498,7 +38499,7 @@ return /******/ (function(modules) { // webpackBootstrap
       }
     },
   };
-  
+
 }(Mirador));
 (function($) {
   $.OsdRegionDrawTool = function(options) {
@@ -42772,7 +42773,7 @@ $.SimpleASEndpoint = function (options) {
               imagesList: _this.imagesList,
               imagesListLtr: _this.imagesListLtr,
               imagesListRtl: _this.imagesListRtl,
-              vDirectionStatus: _this.vDirectionStatus,		
+              vDirectionStatus: _this.vDirectionStatus,
               thumbInfo: {thumbsHeight: 80, listingCssCls: 'panel-listing-thumbs', thumbnailCls: 'panel-thumbnail-view'}
             });
           }
@@ -48156,15 +48157,15 @@ $.SearchWithinResults.prototype = {
 
     getComplianceLevelFromProfile: function(profile) {
         // what to return if we can't determine profile? 0 is not a good idea
-        // would be better to have $.Iiif.supports(profile, feature) but that needs a lot more! 
+        // would be better to have $.Iiif.supports(profile, feature) but that needs a lot more!
         var compliance = -1;
         var complianceString = null;
         if(profile) {
             if(typeof(profile) === 'string'){
-                complianceString = profile;    
+                complianceString = profile;
             } else if (typeof(profile) === 'object'){
                complianceString = profile[0];
-            }   
+            }
             switch(complianceString){
                 case "http://iiif.io/api/image/2/level0.json":
                     compliance = 0;
@@ -48179,7 +48180,7 @@ $.SearchWithinResults.prototype = {
         }
         return compliance;
     },
-    
+
     makeUriWithWidth: function(uri, width, version) {
       uri = uri.replace(/\/$/, '');
       if (version[0] == '1') {
@@ -48238,8 +48239,8 @@ $.SearchWithinResults.prototype = {
 
 	var path = JSONBLOB_API_ENDPOINT;
 
-        // If the body is a string, this is a blob GET operation, 
-	// otherwise it's a POST	
+        // If the body is a string, this is a blob GET operation,
+	// otherwise it's a POST
         if ( typeof body === 'string' || body instanceof String ){
 		path += '/' + body;
 	}
@@ -48375,7 +48376,7 @@ $.SearchWithinResults.prototype = {
       }
     }
   };
-  
+
 }(Mirador));
 
 /* Local fake JsonBlob endpoint */
@@ -48392,7 +48393,7 @@ $.SearchWithinResults.prototype = {
         });
         return uuid;
     }
-    
+
     $.LocalJSONBlobAPI = function(opts) {
           this.options = {
               storage: window.localStorage
@@ -48432,7 +48433,7 @@ $.SearchWithinResults.prototype = {
       }, options)
 
     );
-    
+
     return osd;
 
   };
