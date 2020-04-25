@@ -20,7 +20,7 @@
    ],
 	"sequences": [
 		{
-			"@id": "http://7695dcdd-5439-484f-87e7-38d16ba61dca",
+			"@id": "{{ '' | absolute_url }}img/derivatives/manifestbirdsofamerica.json",
 			"@type": "sc:Sequence",
 			"label": [
 				{
@@ -30,83 +30,61 @@
 			],
 			"canvases": [
 				{
-					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/info.json",
-					"@type": "sc:Canvas",
-					"label": "The Wild Turkey",
-                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
-					"height": 4256,
-					"width": 2832,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-										{
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-								},
-								"height": 4256,
-								"width": 2832
-							},
-							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/info.json"
-						}
-					],
-					"related": ""
-				},
+          "@type": "sc:Canvas",
+          "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/canvas/obj1.json",
+          "label": "The Wild Turkey",
+          "width": 2832,
+          "height": 4256,
+          "thumbnail": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/annotation/obj1.json",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
+                "@type": "dcterms:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1",
+                  "profile": "http://iiif.io/api/image/2/level0.json"
+                },
+                "width": 2832,
+                "height": 4256
+              },
+              "on": "{{ '' | absolute_url }}/img/derivatives/iiif/canvas/obj1.json"
+            }
+          ]
+        },
 				{
-					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/info.json",
-					"@type": "sc:Canvas",
-					"label": "Great-footed Hawk",
-                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
-					"height": 2832,
-					"width": 4256,
-					"images": [
-						{
-							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
-							"@type": "oa:Annotation",
-							"motivation": "sc:painting",
-							"resource": {
-								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
-								"@type": "dctypes:Image",
-								"format": "image/jpeg",
-								"service": {
-									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2",
-									"profile": [
-										"http://iiif.io/api/image/2/level0.json",
-										{
-											"supports": [
-												"cors",
-												"sizeByWhListed",
-												"baseUriRedirect"
-											]
-										}
-									]
-								},
-								"height": 2832,
-								"width": 4256
-							},
-							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/info.json"
-						}
-					]
-
-				},
+			 "@type": "sc:Canvas",
+			 "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/canvas/obj3.json",
+			 "label": "Mocking Bird",
+			 "width": 2832,
+			 "height": 4256,
+			 "thumbnail": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+			 "images": [
+				 {
+					 "@type": "oa:Annotation",
+					 "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/annotation/obj3.json",
+					 "motivation": "sc:painting",
+					 "resource": {
+						 "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
+						 "@type": "dcterms:Image",
+						 "format": "image/jpeg",
+						 "service": {
+							 "@context": "http://iiif.io/api/image/2/context.json",
+							 "@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3",
+							 "profile": "http://iiif.io/api/image/2/level0.json"
+						 },
+						 "width": 2832,
+						 "height": 4256
+					 },
+					 "on": "{{ '' | absolute_url }}/img/derivatives/iiif/canvas/obj3.json"
+				 }
+			 ]
+		 },
 				{
 					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/info.json",
 					"@type": "sc:Canvas",
