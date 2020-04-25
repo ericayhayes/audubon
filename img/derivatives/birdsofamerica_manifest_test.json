@@ -72,6 +72,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/info.json",
 					"@type": "sc:Canvas",
 					"label": "Great-footed Hawk",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -110,6 +111,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/info.json",
 					"@type": "sc:Canvas",
 					"label": "Mocking Bird",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -148,6 +150,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/info.json",
 					"@type": "sc:Canvas",
 					"label": "Carolina Parrot",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -186,6 +189,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj5/info.json",
 					"@type": "sc:Canvas",
 					"label": "White-headed Eagle",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -223,6 +227,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj6/info.json",
 					"@type": "sc:Canvas",
 					"label": "Ruby-throated Hummingbird",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj6/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -260,6 +265,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj7/info.json",
 					"@type": "sc:Canvas",
 					"label": "Red-shouldered Hawk",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj7/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -297,6 +303,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj8/info.json",
 					"@type": "sc:Canvas",
 					"label": "Swamp Sparrow",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj8/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -334,6 +341,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj9/info.json",
 					"@type": "sc:Canvas",
 					"label": "Ivory-billed Woodpecker",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj9/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -372,6 +380,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj10/info.json",
 					"@type": "sc:Canvas",
 					"label": "House Wren",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj10/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -409,6 +418,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj11/info.json",
 					"@type": "sc:Canvas",
 					"label": "Raven",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj11/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -446,6 +456,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj12/info.json",
 					"@type": "sc:Canvas",
 					"label": "Blue Jay",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj12/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -483,6 +494,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj13/info.json",
 					"@type": "sc:Canvas",
 					"label": "Black Vulture",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj13/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -520,6 +532,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj14/info.json",
 					"@type": "sc:Canvas",
 					"label": "Ferruginous Thrush",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj14/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -557,6 +570,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj15/info.json",
 					"@type": "sc:Canvas",
 					"label": "Pewit Flycatcher",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj15/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -594,6 +608,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj16/info.json",
 					"@type": "sc:Canvas",
 					"label": "Snowy Owl",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj16/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -631,6 +646,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj17/info.json",
 					"@type": "sc:Canvas",
 					"label": "Cardinal Grosbeak",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj17/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -668,6 +684,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj18/info.json",
 					"@type": "sc:Canvas",
 					"label": "Barn Owl",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj18/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -705,6 +722,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj19/info.json",
 					"@type": "sc:Canvas",
 					"label": "Golden Eagle",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj19/full/250,/0/default.jpg",
 					"height": 4088,
 					"width": 2832,
 					"images": [
@@ -742,6 +760,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj20/info.json",
 					"@type": "sc:Canvas",
 					"label": "Bachman's Warbler",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj20/full/250,/0/default.jpg",
 					"height": 4100,
 					"width": 2832,
 					"images": [
@@ -779,6 +798,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj21/info.json",
 					"@type": "sc:Canvas",
 					"label": "Red-throated Diver",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj21/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -816,6 +836,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj22/info.json",
 					"@type": "sc:Canvas",
 					"label": "Booby Gannet",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj22/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -853,6 +874,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj23/info.json",
 					"@type": "sc:Canvas",
 					"label": "Esquimaux Curlew",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj23/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -890,6 +912,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj24/info.json",
 					"@type": "sc:Canvas",
 					"label": "Razor billed Auk",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj24/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -927,6 +950,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj25/info.json",
 					"@type": "sc:Canvas",
 					"label": "Louisiana Heron",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj25/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -964,6 +988,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj26/info.json",
 					"@type": "sc:Canvas",
 					"label": "Foolish Guillemot",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj26/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1001,6 +1026,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj27/info.json",
 					"@type": "sc:Canvas",
 					"label": "Whooping Crane",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj27/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -1038,6 +1064,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj28/info.json",
 					"@type": "sc:Canvas",
 					"label": "Long-billed Curlew",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj28/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1075,6 +1102,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj29/info.json",
 					"@type": "sc:Canvas",
 					"label": "Black Backed Gull",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj29/full/250,/0/default.jpg",
 					"height": 4124,
 					"width": 2832,
 					"images": [
@@ -1112,6 +1140,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj30/info.json",
 					"@type": "sc:Canvas",
 					"label": "Snowy Heron",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj30/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -1149,6 +1178,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj31/info.json",
 					"@type": "sc:Canvas",
 					"label": "Eider Duck",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj31/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1186,6 +1216,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj32/info.json",
 					"@type": "sc:Canvas",
 					"label": "Florida Cormorant",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj32/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1223,6 +1254,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj33/info.json",
 					"@type": "sc:Canvas",
 					"label": "Common Cormorant",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj33/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1260,6 +1292,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj34/info.json",
 					"@type": "sc:Canvas",
 					"label": "Great White Heron",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj34/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1297,6 +1330,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj35/info.json",
 					"@type": "sc:Canvas",
 					"label": "Canvas backed Duck",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj35/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1334,6 +1368,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj36/info.json",
 					"@type": "sc:Canvas",
 					"label": "Great Northern Diver",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj36/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1371,6 +1406,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj37/info.json",
 					"@type": "sc:Canvas",
 					"label": "American White Pelican",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj37/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -1408,6 +1444,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj38/info.json",
 					"@type": "sc:Canvas",
 					"label": "Black-bellied Darter",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj38/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -1445,6 +1482,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj39/info.json",
 					"@type": "sc:Canvas",
 					"label": "American Avocet",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj39/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1482,6 +1520,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj40/info.json",
 					"@type": "sc:Canvas",
 					"label": "Roseate Spoonbill",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj40/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4200,
 					"images": [
@@ -1519,6 +1558,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj41/info.json",
 					"@type": "sc:Canvas",
 					"label": "Common Gannet",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj41/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1556,6 +1596,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj42/info.json",
 					"@type": "sc:Canvas",
 					"label": "Goosander or Common Merganser",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj42/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1593,6 +1634,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj43/info.json",
 					"@type": "sc:Canvas",
 					"label": "Great Auk",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj43/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1630,6 +1672,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj44/info.json",
 					"@type": "sc:Canvas",
 					"label": "Goldn Eye Duck",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj44/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1668,6 +1711,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj45/info.json",
 					"@type": "sc:Canvas",
 					"label": "Iceland or Jer Falcon",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj45/full/250,/0/default.jpg",
 					"height": 4100,
 					"width": 2832,
 					"images": [
@@ -1705,6 +1749,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj46/info.json",
 					"@type": "sc:Canvas",
 					"label": "Common Buzzard",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj46/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
@@ -1742,6 +1787,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/info.json",
 					"@type": "sc:Canvas",
 					"label": "Great American Egret",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj47/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1779,6 +1825,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48/info.json",
 					"@type": "sc:Canvas",
 					"label": "Glossy Ibis",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj48/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1816,6 +1863,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj49/info.json",
 					"@type": "sc:Canvas",
 					"label": "Trumpeter Swan",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj49/full/250,/0/default.jpg",
 					"height": 2832,
 					"width": 4256,
 					"images": [
@@ -1853,6 +1901,7 @@
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj50/info.json",
 					"@type": "sc:Canvas",
 					"label": "American Flamingo",
+                    "thumbnail":"https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj50/full/250,/0/default.jpg",
 					"height": 4256,
 					"width": 2832,
 					"images": [
