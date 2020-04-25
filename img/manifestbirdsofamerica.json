@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "{{ '' | absolute_url }}/img/derivatives/manifestbirdsofamerica.json",
+	"@id": "{{ '' | absolute_url }}/img/manifestbirdsofamerica.json",
 	"@type": "sc:Manifest",
 	"label": "Selections from John James Audubon's Birds of America at the Lilly Library ",
 	"related":{
