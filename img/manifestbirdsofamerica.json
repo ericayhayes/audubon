@@ -1,0 +1,1946 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "{{ '' | absolute_url }}/img/derivatives/birdsofamerica_manifest.json",
+	"@type": "sc:Manifest",
+	"label": "Selections from John James Audubon's Birds of America at the Lilly Library ",
+	"related":{
+      "@id":"https://iucat.iu.edu/catalog/15708024",
+      "format":"text/html",
+      "label":"HTML page for the resource"
+   },
+    "attribution":"Courtesy The Lilly Library Indiana University Bloomington Indiana ",
+   "license":[
+      "https://libraries.indiana.edu/lilly-library/permissions-copyright"
+   ],
+   "description":[
+      {
+         "@value":"This manifest includes all 50 plates from the Selections from John James Audubon's Birds of America touchscreen exhibit at the Lilly Library",
+         "@language":"en"
+      }
+   ],
+	"sequences": [
+		{
+			"@id": "http://7695dcdd-5439-484f-87e7-38d16ba61dca",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/info.json",
+					"@type": "sc:Canvas",
+					"label": "The Wild Turkey",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://853c4ea5-50d1-433f-b15d-62aa60cd789f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj1/info.json"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/info.json",
+					"@type": "sc:Canvas",
+					"label": "Great-footed Hawk",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://83a4e5c8-2ec3-430a-9749-2102db3dcb32",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj2/info.json"
+						}
+					]
+
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/info.json",
+					"@type": "sc:Canvas",
+					"label": "Mocking Bird",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7aba6978-874c-49c9-ae04-6c184bdb9bcc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj3/info.json"
+						}
+					]
+
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj4/info.json",
+					"@type": "sc:Canvas",
+					"label": "Carolina Parrot",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ba5f705f-1250-4d86-95e5-803131568bb9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj4",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj4/info.json"
+						}
+					]
+
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5/info.json",
+					"@type": "sc:Canvas",
+					"label": "White-headed Eagle",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5/info.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj5/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj6/info.json",
+					"@type": "sc:Canvas",
+					"label": "Ruby-throated Hummingbird",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj6/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://995516c0-e9f7-4277-9e80-c322fb7fa575",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj6/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj6",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj6/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj7/info.json",
+					"@type": "sc:Canvas",
+					"label": "Red-shouldered Hawk",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj7/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://dadca434-3bb1-4af4-bbda-9df4d1047df7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj7/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj7",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj7/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj8/info.json",
+					"@type": "sc:Canvas",
+					"label": "Swamp Sparrow",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj8/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://82342fa3-27f0-4140-b869-26f51add9605",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj8/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj8",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj8/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj9/info.json",
+					"@type": "sc:Canvas",
+					"label": "Ivory-billed Woodpecker",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj9/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://df7391e7-c92a-4c0d-8604-5de154b10943",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj9/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj9",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj9/info.json"
+						}
+					]
+
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj10/info.json",
+					"@type": "sc:Canvas",
+					"label": "House Wren",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj10/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a96a95f0-1822-4dc2-9c39-d83b02a0ecf9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj10/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj10",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj10/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj11/info.json",
+					"@type": "sc:Canvas",
+					"label": "Raven",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj11/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bc1267eb-a85c-49a7-9598-e2c6c4e47747",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj11/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj11",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj11/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj12/info.json",
+					"@type": "sc:Canvas",
+					"label": "Blue Jay",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj12/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://e5876b6d-56be-4135-86c8-4b9c08598976",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj12/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj12",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj12/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj13/info.json",
+					"@type": "sc:Canvas",
+					"label": "Black Vulture",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj13/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://017432b2-a79b-4a7f-87ab-e7f36e36fd48",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj13/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj13",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj13/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj14/info.json",
+					"@type": "sc:Canvas",
+					"label": "Ferruginous Thrush",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj14/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ce1a8ca4-5ae6-4f87-b810-53decd6d6185",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj14/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj14",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj14/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj15/info.json",
+					"@type": "sc:Canvas",
+					"label": "Pewit Flycatcher",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj15/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://7d6abd37-6647-4558-a4a4-25eb6364650e",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj15/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj15",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj15/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj16/info.json",
+					"@type": "sc:Canvas",
+					"label": "Snowy Owl",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj16/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://308ef37d-845c-4706-813b-05cc4a51fc88",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj16/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj16",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj16/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj17/info.json",
+					"@type": "sc:Canvas",
+					"label": "Cardinal Grosbeak",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj17/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a8a3e9ba-889d-4de1-af82-d24a250fb2a6",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj17/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj17",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj17/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj18/info.json",
+					"@type": "sc:Canvas",
+					"label": "Barn Owl",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj18/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://65818967-111c-40d5-9958-70e1c0f6e21f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj18/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj18",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj18/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj19/info.json",
+					"@type": "sc:Canvas",
+					"label": "Golden Eagle",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj19/full/250,/0/default.jpg",
+					"height": 4088,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://38940791-988f-4e77-a9fb-03925036c85c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj19/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj19",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4088,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj19/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj20/info.json",
+					"@type": "sc:Canvas",
+					"label": "Bachman's Warbler",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj20/full/250,/0/default.jpg",
+					"height": 4100,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://15b5ff27-84d7-47ca-a77d-a6359646f178",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj20/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj20",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4100,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj20/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj21/info.json",
+					"@type": "sc:Canvas",
+					"label": "Red-throated Diver",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj21/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5acdd5ab-d1f0-4eb5-91ab-c29a43638ff2",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj21/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj21",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj21/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj22/info.json",
+					"@type": "sc:Canvas",
+					"label": "Booby Gannet",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj22/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f187b822-9610-40ac-8594-2fc77b349706",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj22/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj22",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj22/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj23/info.json",
+					"@type": "sc:Canvas",
+					"label": "Esquimaux Curlew",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj23/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://eccd16c8-2849-4ece-9b5e-5336b8753205",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj23/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj23",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj23/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj24/info.json",
+					"@type": "sc:Canvas",
+					"label": "Razor billed Auk",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj24/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f9fd53a1-b293-48bf-8501-48bea4f87bfc",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj24/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj24",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj24/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj25/info.json",
+					"@type": "sc:Canvas",
+					"label": "Louisiana Heron",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj25/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://3779c7b3-8ee9-4df3-b3d8-228e489fa0f7",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj25/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj25",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj25/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj26/info.json",
+					"@type": "sc:Canvas",
+					"label": "Foolish Guillemot",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj26/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://99c56910-ff0c-4ac5-bf7a-b532884cc718",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj26/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj26",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj26/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj27/info.json",
+					"@type": "sc:Canvas",
+					"label": "Whooping Crane",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj27/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6abad85e-cb9a-4ee3-b566-d0c03437d13c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj27/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj27",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj27/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj28/info.json",
+					"@type": "sc:Canvas",
+					"label": "Long-billed Curlew",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj28/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b48258e7-d24f-4be8-b559-fd78a0f7a078",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj28/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj28",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj28/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj29/info.json",
+					"@type": "sc:Canvas",
+					"label": "Black Backed Gull",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj29/full/250,/0/default.jpg",
+					"height": 4124,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c3cb41ca-d5fe-4c5e-9713-6526ab1d5c9a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj29/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj29",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4124,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj29/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj30/info.json",
+					"@type": "sc:Canvas",
+					"label": "Snowy Heron",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj30/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d2fd627f-839c-450c-98f2-74c3a042ff72",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj30/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj30",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj30/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj31/info.json",
+					"@type": "sc:Canvas",
+					"label": "Eider Duck",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj31/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://1840b067-b75f-476b-ab92-a5e998c4dbb0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj31/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj31",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj31/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj32/info.json",
+					"@type": "sc:Canvas",
+					"label": "Florida Cormorant",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj32/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://d2f5522e-7c6c-4a61-a726-0d67acb7b502",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj32/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj32",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj32/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj33/info.json",
+					"@type": "sc:Canvas",
+					"label": "Common Cormorant",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj33/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://bac7dae2-f0ca-4319-82c1-82a82afa72ff",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj33/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj33",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj33/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj34/info.json",
+					"@type": "sc:Canvas",
+					"label": "Great White Heron",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj34/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2dd9282c-4696-4d4b-bd8d-6cff511fefd4",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj34/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj34",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj34/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj35/info.json",
+					"@type": "sc:Canvas",
+					"label": "Canvas backed Duck",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj35/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://459bd8e6-4d7d-4bbe-afe3-724b7c383dad",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj35/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj35",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj35/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj36/info.json",
+					"@type": "sc:Canvas",
+					"label": "Great Northern Diver",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj36/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a599432c-c563-444b-a76b-827ba30a899c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj36/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj36",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj36/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj37/info.json",
+					"@type": "sc:Canvas",
+					"label": "American White Pelican",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj37/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2f01c7cd-d3b0-4d5d-a91f-8a480278a41a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj37/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj37",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj37/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj38/info.json",
+					"@type": "sc:Canvas",
+					"label": "Black-bellied Darter",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj38/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://48ecd20a-acef-4711-8d18-6d7f97a81131",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj38/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj38",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj38/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj39/info.json",
+					"@type": "sc:Canvas",
+					"label": "American Avocet",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj39/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a566bd81-6d0b-426d-80df-50a9a3b2fdb3",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj39/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj39",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj39/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj40/info.json",
+					"@type": "sc:Canvas",
+					"label": "Roseate Spoonbill",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj40/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4200,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://61fbc8f8-910b-4d2e-9bb9-04975d9170e5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj40/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj40",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4200
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj40/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj41/info.json",
+					"@type": "sc:Canvas",
+					"label": "Common Gannet",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj41/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b9c6f7d4-fd48-4fee-bd25-4e21ff6ce241",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj41/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj41",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj41/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj42/info.json",
+					"@type": "sc:Canvas",
+					"label": "Goosander or Common Merganser",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj42/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://53b87d69-9038-4ce4-abcc-25d85aea2f85",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj42/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj42",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj42/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj43/info.json",
+					"@type": "sc:Canvas",
+					"label": "Great Auk",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj43/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f8ef2b05-55ff-403c-8dda-840e5d0b0080",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj43/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj43",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj43/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj44/info.json",
+					"@type": "sc:Canvas",
+					"label": "Goldn Eye Duck",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj44/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://ec8d5b67-037a-4101-98b7-234465586441",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj44/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj44",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj44/info.json"
+						}
+					]
+
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj45/info.json",
+					"@type": "sc:Canvas",
+					"label": "Iceland or Jer Falcon",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj45/full/250,/0/default.jpg",
+					"height": 4100,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://13b0353a-619e-4020-a3d3-cd3192e617b9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj45/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj45",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4100,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj45/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj46/info.json",
+					"@type": "sc:Canvas",
+					"label": "Common Buzzard",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj46/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://b04137d5-969c-4264-868e-d65a889c48f5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj46/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj46",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj46/info.json"
+						}
+					]
+				},
+                {
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj47/info.json",
+					"@type": "sc:Canvas",
+					"label": "Great American Egret",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj47/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6b50cb68-a34d-4189-a7e4-88a6113b8f77",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj47/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj47",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj47/info.json"
+						}
+                    ]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj48/info.json",
+					"@type": "sc:Canvas",
+					"label": "Glossy Ibis",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj48/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://409f5524-f730-438d-961d-a95078b990c1",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj48/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj48",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj48/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj49/info.json",
+					"@type": "sc:Canvas",
+					"label": "Trumpeter Swan",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj49/full/250,/0/default.jpg",
+					"height": 2832,
+					"width": 4256,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://f7f833e3-487b-4410-ae73-891617d6a6f0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj49/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj49",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 2832,
+								"width": 4256
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj49/info.json"
+						}
+					]
+				},
+				{
+					"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj50/info.json",
+					"@type": "sc:Canvas",
+					"label": "American Flamingo",
+                    "thumbnail":"{{ '' | absolute_url }}/img/derivatives/iiif/images/obj50/full/250,/0/default.jpg",
+					"height": 4256,
+					"width": 2832,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://fcd49388-e6fd-4812-8454-8fd8fb9746d0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj50/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj50",
+									"profile": [
+										"http://iiif.io/api/image/2/level0.json",
+										{
+											"supports": [
+												"cors",
+												"sizeByWhListed",
+												"baseUriRedirect"
+											]
+										}
+									]
+								},
+								"height": 4256,
+								"width": 2832
+							},
+							"on": "{{ '' | absolute_url }}/img/derivatives/iiif/images/obj50/info.json"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"viewingDirection": "left-to-right",
+	"thumbnail": {
+		"@id": "http://b21cef78-2c90-4974-a16c-474df9dd9633"
+	}
+}
