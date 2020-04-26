@@ -4,12 +4,12 @@ title: Exhibits
 permalink: /exhibits/
 ---
 
-{% assign m1 = '/img/derivatives/birdsofamerica_manifest.json' | absolute_url %}
+{% assign m1 = 'https://ericayhayes.github.io/annotateiiif/testannotationsrange.json' | absolute_url %}
 {% assign m2 = '/img/derivatives/iiif/obj18/manifest.json' | absolute_url %}
 {% include mirador_iiif.html m1=m1 m2=m2 %}
 
 
-<iiif-rangestoryboard rangeurl="https://ericayhayes.github.io/annotateiiif/testannotationsrange.json"></iiif-rangestoryboard>
+<iiif-rangestoryboard rangeurl="https://dnoneill.github.io/annotate/ranges/range.json"></iiif-rangestoryboard>
 
 ## Browse and Compare Images from _Birds of America_
 
