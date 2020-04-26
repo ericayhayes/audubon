@@ -9,7 +9,7 @@ permalink: /exhibits/
 {% include mirador_iiif.html m1=m1 m2=m2 %}
 
 
-<iiif-rangestoryboard rangeurl="https://tomcrane.github.io/iiif-collector/objects/longer-article.json"></iiif-rangestoryboard>
+<iiif-rangestoryboard rangeurl="https://ericayhayes.github.io/annotateiiif/testannotationsrange.json"></iiif-rangestoryboard>
 
 ## Browse and Compare Images from _Birds of America_
 
