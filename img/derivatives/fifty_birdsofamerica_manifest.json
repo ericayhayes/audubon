@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "https://ericayhayes.github.io/audubon/img/derivatives/birdsofamerica_manifest.json",
+	"@id": "https://ericayhayes.github.io/audubon/img/derivatives/fifty_birdsofamerica_manifest.json",
 	"@type": "sc:Manifest",
 	"label": "Selections from John James Audubon's Birds of America at the Lilly Library ",
 	"related":{
@@ -17,7 +17,7 @@
          "@value":"This manifest includes all 50 plates from the Selections from John James Audubon's Birds of America touchscreen exhibit at the Lilly Library",
          "@language":"en"
       }
-   ],	
+   ],
 	"sequences": [
 		{
 			"@id": "http://7695dcdd-5439-484f-87e7-38d16ba61dca",
@@ -105,7 +105,7 @@
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj2/info.json"
 						}
 					]
-					
+
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/info.json",
@@ -144,7 +144,7 @@
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj3/info.json"
 						}
 					]
-					
+
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/info.json",
@@ -183,7 +183,7 @@
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj4/info.json"
 						}
 					]
-					
+
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj5/info.json",
@@ -374,7 +374,7 @@
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj9/info.json"
 						}
 					]
-					
+
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj10/info.json",
@@ -1705,7 +1705,7 @@
 							"on": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj44/info.json"
 						}
 					]
-					
+
 				},
 				{
 					"@id": "https://ericayhayes.github.io/audubon/img/derivatives/iiif/images/obj45/info.json",
