@@ -36,7 +36,23 @@ html, body {
     .container {
       width: 80vw; } }
 
+.wax-footer {
+  background-color: #731d15;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
+}
+
+#wax-header {
+  z-index: 100000;
+  padding: 1.5rem;
+  letter-spacing: 0.075rem;
+  background-color: #731d15;
+  display: flex;
+}
 
 #main a {
   color: #731d15; }
