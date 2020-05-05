@@ -455,6 +455,12 @@ search box
 .iiif-logo {
   height: 1.5em; }
 
+.iulogo {
+  width: 65px;
+  vertical-align: middle;
+  border-style: none;
+}
+
 .mirador {
   display: block;
   position: relative;

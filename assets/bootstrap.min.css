@@ -4529,7 +4529,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, .9)
+    color: white;
 }
 
 .navbar-light .navbar-brand:focus,
