@@ -4261,6 +4261,7 @@ input[type=submit].btn-block {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none
+    font-size: 20px;
 }
 
 .navbar-nav .nav-link {
@@ -4530,6 +4531,7 @@ input[type=submit].btn-block {
 
 .navbar-light .navbar-brand {
     color: white;
+    font-size: 25px;
 }
 
 .navbar-light .navbar-brand:focus,
@@ -4539,6 +4541,7 @@ input[type=submit].btn-block {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(0, 0, 0, .5)
+
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
