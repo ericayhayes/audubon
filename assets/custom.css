@@ -493,7 +493,7 @@ search box
         top: 0;
         display: block;
         float: right;
-        position: fixed;
+        position: absolute;
         padding: 15px;
     }
 

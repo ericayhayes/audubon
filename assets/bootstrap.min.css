@@ -5424,7 +5424,7 @@ input[type=submit].btn-block {
 
 .list-group-item:last-child {
     margin-bottom: 25px;
-    background-color: #dedec5;
+    background-color: #edebeb;
     border-bottom-right-radius: .25rem;
     border-bottom-left-radius: .25rem
 }

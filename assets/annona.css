@@ -16,6 +16,9 @@
 .storyboard_viewer {
     padding-bottom: 50px;
     position: relative
+    background-color: #6c757d;
+    background: #6c757d;
+    
 }
 
 .seadragonbox {
