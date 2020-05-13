@@ -19,13 +19,13 @@ layout: iiif-item-page
 ---
 
 
-# White-headed Eagle (_Haliacetus leucocepahlus_), Volume 1, Plate 1
+### White-headed Eagle (_Haliacetus leucocepahlus_), Volume 1, Plate 1
 
 _Painted ca. 1828. The plate is based on the second of two watercolors featuring a handsome male eagle Audubon shot near Little Prairie, Mississippi. The eagle was, he proudly recorded in his journal, nearly 150 yards off when Audubon spied him. Nevertheless his "ball" went straight through the bird's heart. The original watercolor showed the eagle perched on the carcass of a Canada Goose. One of the bird's claws penetrates the goose's eye, one of many images of violated (or nearly violated) sight in Audubon's oeuvre._
 
 Replacing the goose with a catfish and the river with a sublime vista of Alpine mountains, Audubon appeals to American as well as European viewers. The bird's massive horizontal body contrasts with the slack, sloping, overturned body of the catfish. The debris of previous meals litters the rock on which the bird is perched, a reminder that the Bald Eagle is at home in the water as well as high up in the mountains. The accompanying essay highlights the efficient brutality of the bird, to which Audubon pays grudging respect. The swift killing of the swan echoes the rape of Leda by Zeus, except in the avian world the eagle's mate is an eager witness and partner-as might also be, Audubon insinuates, the reader taking pleasure in such gory detail. The scene was so suggestive that Audubon deleted it from the version of the essay included in the Royal Octavo edition of _Birds of America_ (1840-44).
 
-# From John James Audubon's _Ornithological Biography_
+### From John James Audubon's _Ornithological Biography_
 
 The snow-white bird [a Trumpeter Swan] is now in sight: her long neck is stretched forward, her eye is on the watch, vigilant as that of her enemy; her large wings seem with difficulty to support the weight of her body, although they flap incessantly. So irksome do her exertions seem, that her very legs are spread beneath her tail, to aid her in her flight. She approaches, however. The Eagle has marked her for his prey. As the Swan is passing the dreaded pair, starts from his perch, in full preparation for the chase, the male bird, with an awful scream, that to the Swan's ear brings more terror than the report of the large duck-gun.
 

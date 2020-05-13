@@ -18,13 +18,13 @@ permalink: "/audubon/obj10/"
 layout: iiif-item-page
 ---
 
-# The House Wren (_Troglodytes Aedon, Vieill._), Volume 1, Plate 83
+### The House Wren (_Troglodytes Aedon, Vieill._), Volume 1, Plate 83
 
 _Painted in 1824._
 
 The human world is never more present in _Birds of America_ than in this affecting portrait of birds nesting in an old hat. Note, though, what the male bird that is perched, tail cocked, on top of the hat seems to think of humanity and its props-one rarely finds excrement so lovingly rendered as here. Audubon enlivens the image by placing the spider that is about to serve as a meal for the young birds right at the center of the composition. A third young wren has just fledged and is precariously holding on to the hat. Audubon's essay about the House Wren extols the "familiarity" of a bird that seems to come so close to the world of humans while also admitting that one really knows nothing about some of its habits, including hibernation.
 
-# From John James Audubon's _Ornithological Biography_
+### From John James Audubon's _Ornithological Biography_
 
 From whence the House Wren comes, or to what parts it retires during winter, is more than I have been able to ascertain. Although it is extremely abundant in the States of Pennsylvania, New Jersey, Virginia, and Maryland, from the middle of April until the beginning of October, I have never been able to trace its motions, nor do I know of any naturalist in our own country, or indeed in any other, who has been more fortunate.
 
