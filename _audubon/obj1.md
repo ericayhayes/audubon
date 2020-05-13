@@ -17,7 +17,7 @@ full: "/img/derivatives/iiif/images/obj1/full/1140,/0/default.jpg"
 permalink: "/audubon/obj1/"
 layout: iiif-item-page
 ---
-# The Wild Turkey (_Meleagris gallopavo_), Volume 1, Plate 1
+### The Wild Turkey (_Meleagris gallopavo_), Volume 1, Plate 1
 
 _Painted on Beech Woods Plantation, Feliciana Parish, Louisiana, around 1825. One of Lucy Audubon's students recalls that the bird he shot weighed 28 pounds. "Audubon pinned it up on the wall and spent several days sketching it... till it rotted and stank—I hated to lose so much good eating."_
 
