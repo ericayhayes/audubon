@@ -42,7 +42,7 @@ lunr_index:
 menu:
   - label: About
     sub:
-    - label: About John James Audubon
+    - label: John James Audubon
       link: /about/
     - label: Credits
       link: /credits/
