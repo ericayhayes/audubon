@@ -43,6 +43,7 @@ html, body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 50px;
 
 }
 
@@ -114,6 +115,10 @@ p#credits {
   line-height: 1.2;
   color: inherit;
   font-size: 1.70rem;
+}
+
+p.footer-title {
+  color: white;
 }
 
 /*
@@ -472,6 +477,7 @@ search box
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+
 }
 
 
