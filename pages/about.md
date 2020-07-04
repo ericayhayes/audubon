@@ -8,6 +8,7 @@ permalink: /about/
 
 <img class="johnjaudubon" src="http://eyhayes.com/audubon/images/John-J-Audubon.jpg" alt="johnjaudubon"/>
 
+
 ### John James Audubon
 
 John James Audubon (1785–1851) was America's first painter of international stature. His bird paintings not only changed the tradition of natural history illustration, they also had a lasting impact on the development of ornithology and bird conservation. As a nature writer, he deserves to be mentioned in the same breath with Henry David Thoreau, John Muir, Aldo Leopold, and Rachel Carson.

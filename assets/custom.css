@@ -315,6 +315,7 @@ search box
 .johnjaudubon {
   width: 100%;
   height: auto;
+  margin-bottom: 24px;
 
 }
 
@@ -323,8 +324,8 @@ search box
     height: 350px;
     width: auto;
     float: left;
+    margin-bottom: 24px;
     padding-right: 25px;
-    padding-bottom: 20px;
   }
 }
 @media only screen and (min-width: 1200px){

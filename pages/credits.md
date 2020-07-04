@@ -5,37 +5,43 @@ permalink: /credits/
 
 ---
 
-<p id="credits_center">Acknowledgements and Credits</p>
+<img class="acknowledgements" src="http://eyhayes.com/audubon/images/Shooting-the-Audubon2.jpg" alt="Photographing Audubon's Birds of America"/>
 
-<img class="acknowledgements" src="http://eyhayes.com/audubon/images/Shooting-the-Audubon2.jpg">
+### Credits
 
-<p class="credits">Curator and Author of Online Exhibit</p>
-<ul>
-    <li><p>Christoph Irmscher</p></li>
+The Lilly Library at Indiana University, Bloomington would like to acknowledge the following people for their contributions to this project:
+
+<h4>Curator and Author of Exhibit</h4>
+ <ul style="list-style-position: inside;">
+  <li class="credits">Christoph Irmscher</li>
 </ul>
 
-<p class="credits"> Photography & Digitization</p>
-<ul>
-    <li><p>Zach Downey</p></li>
-    <li><p>Jessi Kulow</p></li>
-    <li><p>Carly Sentieri</p></li>
-    <li><p>Gabriel Swift</p></li>
-    <li><p>Jim Canary</p></li>
+<h4>Photography & Digitization</h4>
+<ul style="list-style-position: inside;">
+    <li class="credits">Zach Downey</li>
+    <li class="credits">Jessi Kulow</li>
+    <li class="credits">Carly Sentieri</li>
+    <li class="credits">Gabriel Swift</li>
+    <li class="credits">Jim Canary</li>
 </ul>
 
-<p class="credits">Web Development & Interface Design</p>
-<ul>
-    <li><p>Erica Y. Hayes</p></li>
-    <li><p>Ariadne Rehbein</p></li>
+<h4>Web Development</h4>
+<ul style="list-style-position: inside;">
+    <li class="credits">Erica Y. Hayes</li>
 </ul>
 
-<p class="credits">Metadata</p>
-<ul>
-    <li><p>Annie Bolotin</p></li>
-    <li><p>Erika Jenns</p></li>
+<h4>User Experience Design</h4>
+<ul style="list-style-position: inside;">
+    <li class="credits">Ariadne Rehbein</li>
 </ul>
 
-<p class="credits">Project Management</p>
-<ul>
-    <li><p>Erika Dowell</p></li>
+<h4>Metadata</h4>
+<ul style="list-style-position: inside;">
+    <li class="credits">Annie Bolotin</li>
+    <li class="credits">Erika Jenns</li>
+</ul>
+
+<h4>Project Management</h4>
+<ul style="list-style-position: inside;">
+  <li class="credits">Erika Dowell</li>
 </ul>
