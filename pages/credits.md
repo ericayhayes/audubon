@@ -30,7 +30,7 @@ The Lilly Library at Indiana University, Bloomington would like to acknowledge t
     <li class="credits">Erica Y. Hayes</li>
 </ul>
 
-<h4>Web &b UX Design</h4>
+<h4>Web Design & User Experience</h4>
 <ul style="list-style-position: inside;">
     <li class="credits">Ariadne Rehbein</li>
 </ul>
