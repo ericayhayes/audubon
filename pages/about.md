@@ -6,7 +6,7 @@ permalink: /about/
 
 
 
-<img class="johnjaudubon" src="https://ericayhayes.github.io/audubon/about/img/LillyLibrary/John-J-Audubon.jpg" alt="johnjaudubon"/>
+<img class="johnjaudubon" src="https://ericayhayes.github.io/audubon/img/LillyLibrary/John-J-Audubon.jpg" alt="johnjaudubon"/>
 
 
 ### John James Audubon
