@@ -7,6 +7,7 @@ volume: '3'
 plate: '207'
 repository: Lilly Library
 current_location: Indiana University
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Divers of Lakes and Bays, Wanderers of Seas and Coasts
 current_population: Unthreatened
 order: '22'
