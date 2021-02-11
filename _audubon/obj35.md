@@ -7,6 +7,7 @@ volume: '4'
 plate: '301'
 repository: Lilly Library
 current_location: Indiana University
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Waterfowl
 current_population: Unthreatened
 order: '35'
