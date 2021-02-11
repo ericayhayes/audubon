@@ -7,6 +7,7 @@ volume: '3'
 plate: '226'
 repository: Lilly Library
 current_location: Indiana University
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Upland Gamebirds and Marsh-Dwellers
 current_population: Endangered
 order: '27'

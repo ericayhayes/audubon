@@ -7,6 +7,7 @@ volume: '4'
 plate: '341'
 repository: Lilly Library
 current_location: Indiana University
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Seabirds
 current_population: Extinct
 order: '43'

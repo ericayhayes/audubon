@@ -302,7 +302,7 @@ search box
 
 .img-with-text {
     text-align: justify;
-    width: 190px;
+    /*width: 190px;*/
     margin-top: 25px;
     margin-left: 50px;
 }
@@ -339,7 +339,7 @@ search box
 .acknowledgements {
   width: 100%;
   height: auto;
-  
+
 
 }
 

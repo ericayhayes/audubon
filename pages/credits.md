@@ -5,7 +5,7 @@ permalink: /credits/
 
 ---
 
-<img class="acknowledgements" src="http://eyhayes.com/audubon/images/Shooting-the-Audubon2.jpg" alt="Photographing Audubon's Birds of America"/>
+<img class="acknowledgements" src="http://eyhayes.com/audubon/img/LillyLibrary/Shooting-the-Audubon.jpg" alt="Photographing Audubon's Birds of America"/>
 
 ### Credits
 

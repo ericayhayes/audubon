@@ -24,7 +24,7 @@
   {% endfor %}
 
   <div class="item-view">
-    <a href="{{ site.baseurl }}{{ prevurl }}" id="prev" class="prevnext">
+    <a href="{{ '' | absolute_url }}{{ prevurl }}" id="prev" class="prevnext">
       <button type="button" class="btn">
         <i class="fas fa-chevron-left"></i>
       </button>
@@ -32,7 +32,7 @@
 
     <div id="leaflet-iiif"></div>
 
-    <a href="{{ site.baseurl }}{{ nexturl }}" id="next" class="prevnext">
+    <a href="{{ '' | absolute_url }}{{ nexturl }}" id="next" class="prevnext">
       <button type="button" class="btn">
         <i class="fas fa-chevron-right"></i>
       </button>
