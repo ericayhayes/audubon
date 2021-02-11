@@ -7,7 +7,7 @@ volume: '2'
 plate: '171'
 repository: Lilly Library
 current_location: Indiana University, Bloomington
-copyright: The Lilly Library, Indiana University, Bloomington, Indiana
+copyright: Courtesy, The Lilly Library, Indiana University, Bloomington, Indiana
 category: Showy Birds, Nocturnal Hunters and Superb Aerialists
 current_population: Unthreatened
 order: '18'
